@@ -1,0 +1,3970 @@
+{
+  "test_1": {
+    "sector_table": [
+      {
+        "Sector": "Retail",
+        "N": 16,
+        "Accuracy": 0.8125,
+        "Sensitivity": 1.0,
+        "Specificity": 0.6666666666666666,
+        "Precision": 0.7,
+        "TP": 7,
+        "TN": 6,
+        "FP": 3,
+        "FN": 0
+      },
+      {
+        "Sector": "Oil & Gas",
+        "N": 8,
+        "Accuracy": 1.0,
+        "Sensitivity": 1.0,
+        "Specificity": NaN,
+        "Precision": 1.0,
+        "TP": 8,
+        "TN": 0,
+        "FP": 0,
+        "FN": 0
+      },
+      {
+        "Sector": "Airlines",
+        "N": 5,
+        "Accuracy": 1.0,
+        "Sensitivity": 1.0,
+        "Specificity": 1.0,
+        "Precision": 1.0,
+        "TP": 4,
+        "TN": 1,
+        "FP": 0,
+        "FN": 0
+      },
+      {
+        "Sector": "Travel",
+        "N": 4,
+        "Accuracy": 1.0,
+        "Sensitivity": 1.0,
+        "Specificity": 1.0,
+        "Precision": 1.0,
+        "TP": 3,
+        "TN": 1,
+        "FP": 0,
+        "FN": 0
+      },
+      {
+        "Sector": "Mining",
+        "N": 2,
+        "Accuracy": 1.0,
+        "Sensitivity": 1.0,
+        "Specificity": NaN,
+        "Precision": 1.0,
+        "TP": 2,
+        "TN": 0,
+        "FP": 0,
+        "FN": 0
+      },
+      {
+        "Sector": "Automotive",
+        "N": 2,
+        "Accuracy": 1.0,
+        "Sensitivity": 1.0,
+        "Specificity": NaN,
+        "Precision": 1.0,
+        "TP": 2,
+        "TN": 0,
+        "FP": 0,
+        "FN": 0
+      },
+      {
+        "Sector": "Real Estate",
+        "N": 2,
+        "Accuracy": 1.0,
+        "Sensitivity": 1.0,
+        "Specificity": NaN,
+        "Precision": 1.0,
+        "TP": 2,
+        "TN": 0,
+        "FP": 0,
+        "FN": 0
+      },
+      {
+        "Sector": "Food",
+        "N": 1,
+        "Accuracy": 1.0,
+        "Sensitivity": NaN,
+        "Specificity": 1.0,
+        "Precision": NaN,
+        "TP": 0,
+        "TN": 1,
+        "FP": 0,
+        "FN": 0
+      },
+      {
+        "Sector": "Construction",
+        "N": 1,
+        "Accuracy": 1.0,
+        "Sensitivity": NaN,
+        "Specificity": 1.0,
+        "Precision": NaN,
+        "TP": 0,
+        "TN": 1,
+        "FP": 0,
+        "FN": 0
+      },
+      {
+        "Sector": "Chemicals",
+        "N": 1,
+        "Accuracy": 1.0,
+        "Sensitivity": 1.0,
+        "Specificity": NaN,
+        "Precision": 1.0,
+        "TP": 1,
+        "TN": 0,
+        "FP": 0,
+        "FN": 0
+      },
+      {
+        "Sector": "Banking",
+        "N": 1,
+        "Accuracy": 1.0,
+        "Sensitivity": 1.0,
+        "Specificity": NaN,
+        "Precision": 1.0,
+        "TP": 1,
+        "TN": 0,
+        "FP": 0,
+        "FN": 0
+      },
+      {
+        "Sector": "Aerospace",
+        "N": 1,
+        "Accuracy": 1.0,
+        "Sensitivity": 1.0,
+        "Specificity": NaN,
+        "Precision": 1.0,
+        "TP": 1,
+        "TN": 0,
+        "FP": 0,
+        "FN": 0
+      },
+      {
+        "Sector": "Manufacturing",
+        "N": 1,
+        "Accuracy": 1.0,
+        "Sensitivity": 1.0,
+        "Specificity": NaN,
+        "Precision": 1.0,
+        "TP": 1,
+        "TN": 0,
+        "FP": 0,
+        "FN": 0
+      },
+      {
+        "Sector": "Pharmaceuticals",
+        "N": 1,
+        "Accuracy": 1.0,
+        "Sensitivity": 1.0,
+        "Specificity": NaN,
+        "Precision": 1.0,
+        "TP": 1,
+        "TN": 0,
+        "FP": 0,
+        "FN": 0
+      },
+      {
+        "Sector": "Telecommunications",
+        "N": 1,
+        "Accuracy": 1.0,
+        "Sensitivity": 1.0,
+        "Specificity": NaN,
+        "Precision": 1.0,
+        "TP": 1,
+        "TN": 0,
+        "FP": 0,
+        "FN": 0
+      }
+    ],
+    "overall_accuracy": 0.9361702127659575,
+    "chi_square": 0,
+    "chi_square_p_value": 1,
+    "chi_square_dof": 0,
+    "all_sectors_above_75": true,
+    "pass": true,
+    "verdict": "PASS"
+  },
+  "test_2": {
+    "cohort_table": [
+      {
+        "Cohort": "A",
+        "Period": "2017-2018 (Pre-COVID)",
+        "N": 12,
+        "Accuracy": 0.9166666666666666,
+        "Sensitivity": 1.0,
+        "Specificity": 0.8,
+        "AUC_ROC": 1.0,
+        "TP": 7,
+        "TN": 4,
+        "FP": 1,
+        "FN": 0
+      },
+      {
+        "Cohort": "B",
+        "Period": "2018-2019 (Late Cycle)",
+        "N": 19,
+        "Accuracy": 0.9473684210526315,
+        "Sensitivity": 1.0,
+        "Specificity": 0.6666666666666666,
+        "AUC_ROC": 1.0,
+        "TP": 16,
+        "TN": 2,
+        "FP": 1,
+        "FN": 0
+      },
+      {
+        "Cohort": "C",
+        "Period": "2019-2020 (COVID)",
+        "N": 16,
+        "Accuracy": 0.9375,
+        "Sensitivity": 1.0,
+        "Specificity": 0.8,
+        "AUC_ROC": 0.9818181818181819,
+        "TP": 11,
+        "TN": 4,
+        "FP": 1,
+        "FN": 0
+      }
+    ],
+    "chow_test_chi2": 0.11673478203083472,
+    "chow_test_p_value": 0.9433033226017351,
+    "accuracy_gap": 0.030701754385964897,
+    "pass": true,
+    "verdict": "PASS"
+  },
+  "test_3": {
+    "variable_table": [
+      {
+        "Variable": "V6: Revenue / Total Assets",
+        "Coefficient": -1.8122,
+        "Abs_Coefficient": 1.8122,
+        "Raw_Pct": 29.87274165897402,
+        "Std_Dev": 0.44562976254701875,
+        "Standardized": 0.8075702556877074,
+        "Std_Pct": 32.39861999001605,
+        "Perm_Importance": 0.16279069767441856,
+        "Perm_Pct": 63.63636363636365,
+        "Avg_Rank": 1.0
+      },
+      {
+        "Variable": "V2: Retained Earnings / Total Assets",
+        "Coefficient": 1.707,
+        "Abs_Coefficient": 1.707,
+        "Raw_Pct": 28.138599498879074,
+        "Std_Dev": 0.41745618117561833,
+        "Standardized": 0.7125977012667806,
+        "Std_Pct": 28.58845031314448,
+        "Perm_Importance": 0.09302325581395343,
+        "Perm_Pct": 36.36363636363635,
+        "Avg_Rank": 2.0
+      },
+      {
+        "Variable": "V3: EBITDA / Total Debt",
+        "Coefficient": 0.7426,
+        "Abs_Coefficient": 0.7426,
+        "Raw_Pct": 12.241197415271001,
+        "Std_Dev": 0.5068578417427054,
+        "Standardized": 0.37639263327813305,
+        "Std_Pct": 15.100360379463298,
+        "Perm_Importance": 0.0,
+        "Perm_Pct": 0.0,
+        "Avg_Rank": 3.8333333333333335
+      },
+      {
+        "Variable": "V5: Collateral Value / Total Liabilities",
+        "Coefficient": 0.8278,
+        "Abs_Coefficient": 0.8278,
+        "Raw_Pct": 13.645654754055123,
+        "Std_Dev": 0.23241589061155327,
+        "Standardized": 0.19239387424824378,
+        "Std_Pct": 7.718580490396667,
+        "Perm_Importance": 0.0,
+        "Perm_Pct": 0.0,
+        "Avg_Rank": 4.166666666666667
+      },
+      {
+        "Variable": "V4: Operating Cash Flow / Total Debt",
+        "Coefficient": 0.7262,
+        "Abs_Coefficient": 0.7262,
+        "Raw_Pct": 11.970855861796123,
+        "Std_Dev": 0.5139526256017172,
+        "Standardized": 0.373232396711967,
+        "Std_Pct": 14.973575987808637,
+        "Perm_Importance": 0.0,
+        "Perm_Pct": 0.0,
+        "Avg_Rank": 4.5
+      },
+      {
+        "Variable": "V1: Working Capital / Total Assets",
+        "Coefficient": 0.2506,
+        "Abs_Coefficient": 0.2506,
+        "Raw_Pct": 4.13095081102466,
+        "Std_Dev": 0.12138904759552761,
+        "Standardized": 0.03042009532743922,
+        "Std_Pct": 1.2204128391708524,
+        "Perm_Importance": 0.0,
+        "Perm_Pct": 0.0,
+        "Avg_Rank": 5.5
+      }
+    ],
+    "model_comparison": [
+      {
+        "Model": "Top 3 Variables",
+        "Variables": [
+          "V6",
+          "V2",
+          "V3"
+        ],
+        "In_Sample_Accuracy": 0.8604651162790697,
+        "CV_Accuracy_Mean": 0.8861111111111111,
+        "CV_Accuracy_Std": 0.12184284555256285,
+        "AUC_ROC": 0.9794871794871796
+      },
+      {
+        "Model": "Top 4 Variables",
+        "Variables": [
+          "V6",
+          "V2",
+          "V3",
+          "V4"
+        ],
+        "In_Sample_Accuracy": 0.9302325581395349,
+        "CV_Accuracy_Mean": 0.8861111111111111,
+        "CV_Accuracy_Std": 0.12184284555256285,
+        "AUC_ROC": 0.9846153846153846
+      },
+      {
+        "Model": "Top 6 Variables",
+        "Variables": [
+          "V6",
+          "V2",
+          "V3",
+          "V4",
+          "V5",
+          "V1"
+        ],
+        "In_Sample_Accuracy": 0.9534883720930233,
+        "CV_Accuracy_Mean": 0.9305555555555556,
+        "CV_Accuracy_Std": 0.05692750425533112,
+        "AUC_ROC": 0.9846153846153847
+      }
+    ],
+    "top3_importance_pct": 76.08743068262383,
+    "top3_above_80": false,
+    "pass": true,
+    "verdict": "CONDITIONAL PASS"
+  },
+  "test_4": {
+    "threshold_table": [
+      {
+        "Threshold": "Current (0.50)",
+        "Binary_Cutoff": 0.5,
+        "Accuracy": 0.9361702127659575,
+        "Sensitivity": 1.0,
+        "Specificity": 0.7692307692307693,
+        "Precision": 0.918918918918919,
+        "F1_Score": 0.9577464788732395,
+        "TP": 34,
+        "TN": 10,
+        "FP": 3,
+        "FN": 0
+      },
+      {
+        "Threshold": "Conservative (0.55)",
+        "Binary_Cutoff": 0.55,
+        "Accuracy": 0.9361702127659575,
+        "Sensitivity": 0.9705882352941176,
+        "Specificity": 0.8461538461538461,
+        "Precision": 0.9428571428571428,
+        "F1_Score": 0.9565217391304348,
+        "TP": 33,
+        "TN": 11,
+        "FP": 2,
+        "FN": 1
+      },
+      {
+        "Threshold": "Aggressive (0.40)",
+        "Binary_Cutoff": 0.4,
+        "Accuracy": 0.8723404255319149,
+        "Sensitivity": 1.0,
+        "Specificity": 0.5384615384615384,
+        "Precision": 0.85,
+        "F1_Score": 0.9189189189189189,
+        "TP": 34,
+        "TN": 7,
+        "FP": 6,
+        "FN": 0
+      },
+      {
+        "Threshold": "Balanced (0.60)",
+        "Binary_Cutoff": 0.6,
+        "Accuracy": 0.9361702127659575,
+        "Sensitivity": 0.9705882352941176,
+        "Specificity": 0.8461538461538461,
+        "Precision": 0.9428571428571428,
+        "F1_Score": 0.9565217391304348,
+        "TP": 33,
+        "TN": 11,
+        "FP": 2,
+        "FN": 1
+      }
+    ],
+    "sweep_table": [
+      {
+        "Threshold": 0.3,
+        "Accuracy": 0.8297872340425532,
+        "Sensitivity": 1.0,
+        "Specificity": 0.38461538461538464,
+        "Precision": 0.8095238095238095,
+        "F1": 0.8947368421052632
+      },
+      {
+        "Threshold": 0.35,
+        "Accuracy": 0.8297872340425532,
+        "Sensitivity": 1.0,
+        "Specificity": 0.38461538461538464,
+        "Precision": 0.8095238095238095,
+        "F1": 0.8947368421052632
+      },
+      {
+        "Threshold": 0.4,
+        "Accuracy": 0.8723404255319149,
+        "Sensitivity": 1.0,
+        "Specificity": 0.5384615384615384,
+        "Precision": 0.85,
+        "F1": 0.9189189189189189
+      },
+      {
+        "Threshold": 0.45,
+        "Accuracy": 0.9148936170212766,
+        "Sensitivity": 1.0,
+        "Specificity": 0.6923076923076923,
+        "Precision": 0.8947368421052632,
+        "F1": 0.9444444444444444
+      },
+      {
+        "Threshold": 0.5,
+        "Accuracy": 0.9361702127659575,
+        "Sensitivity": 1.0,
+        "Specificity": 0.7692307692307693,
+        "Precision": 0.918918918918919,
+        "F1": 0.9577464788732395
+      },
+      {
+        "Threshold": 0.55,
+        "Accuracy": 0.9361702127659575,
+        "Sensitivity": 0.9705882352941176,
+        "Specificity": 0.8461538461538461,
+        "Precision": 0.9428571428571428,
+        "F1": 0.9565217391304348
+      },
+      {
+        "Threshold": 0.6,
+        "Accuracy": 0.9361702127659575,
+        "Sensitivity": 0.9705882352941176,
+        "Specificity": 0.8461538461538461,
+        "Precision": 0.9428571428571428,
+        "F1": 0.9565217391304348
+      },
+      {
+        "Threshold": 0.65,
+        "Accuracy": 0.9361702127659575,
+        "Sensitivity": 0.9117647058823529,
+        "Specificity": 1.0,
+        "Precision": 1.0,
+        "F1": 0.9538461538461539
+      },
+      {
+        "Threshold": 0.7,
+        "Accuracy": 0.9361702127659575,
+        "Sensitivity": 0.9117647058823529,
+        "Specificity": 1.0,
+        "Precision": 1.0,
+        "F1": 0.9538461538461539
+      },
+      {
+        "Threshold": 0.75,
+        "Accuracy": 0.8936170212765957,
+        "Sensitivity": 0.8529411764705882,
+        "Specificity": 1.0,
+        "Precision": 1.0,
+        "F1": 0.9206349206349206
+      },
+      {
+        "Threshold": 0.8,
+        "Accuracy": 0.8297872340425532,
+        "Sensitivity": 0.7647058823529411,
+        "Specificity": 1.0,
+        "Precision": 1.0,
+        "F1": 0.8666666666666666
+      }
+    ],
+    "optimal_threshold_youden": 0.70985364100178,
+    "optimal_j_statistic": 0.9117647058823529,
+    "best_accuracy_threshold": 0.5,
+    "best_accuracy": 0.9361702127659575,
+    "roc_data": {
+      "fpr": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.07692307692307693,
+        0.07692307692307693,
+        0.15384615384615385,
+        0.15384615384615385,
+        1.0
+      ],
+      "tpr": [
+        0.0,
+        0.029411764705882353,
+        0.3235294117647059,
+        0.4411764705882353,
+        0.9117647058823529,
+        0.9117647058823529,
+        0.9411764705882353,
+        0.9411764705882353,
+        1.0,
+        1.0
+      ]
+    },
+    "pass": true,
+    "verdict": "PASS -- Optimal threshold identified"
+  },
+  "test_5": {
+    "in_sample_accuracy": 0.9534883720930233,
+    "in_sample_auc": 0.9846153846153847,
+    "cv5_accuracy_mean": 0.9333333333333332,
+    "cv5_accuracy_std": 0.05443310539518176,
+    "cv5_accuracy_folds": [
+      0.8888888888888888,
+      0.8888888888888888,
+      0.8888888888888888,
+      1.0,
+      1.0
+    ],
+    "cv5_auc_mean": 0.9888888888888889,
+    "cv5_ci": [
+      0.8856206127684387,
+      0.9810460538982277
+    ],
+    "cv10_accuracy_mean": 0.9099999999999999,
+    "cv10_accuracy_std": 0.11135528725660043,
+    "cv10_accuracy_folds": [
+      1.0,
+      0.8,
+      0.8,
+      0.75,
+      0.75,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "cv10_auc_mean": 1.0,
+    "loo_accuracy": 0.9069767441860465,
+    "overfitting_gap_5fold": 0.020155038759690047,
+    "overfitting_gap_10fold": 0.043488372093023364,
+    "paired_ttest_stat": 1.0,
+    "paired_ttest_pval": 0.32303728760298706,
+    "pass": true,
+    "verdict": "PASS"
+  },
+  "test_6": {
+    "sensitivity_table": [
+      {
+        "Company": "Emaar Properties",
+        "Category": "High GO",
+        "Variable": "V1",
+        "Perturbation": "+10%",
+        "Base_Prob": 0.9990153482541625,
+        "Perturbed_Prob": 0.9990176233836838,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Emaar Properties",
+        "Category": "High GO",
+        "Variable": "V1",
+        "Perturbation": "+20%",
+        "Base_Prob": 0.9990153482541625,
+        "Perturbed_Prob": 0.9990198932614641,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Emaar Properties",
+        "Category": "High GO",
+        "Variable": "V1",
+        "Perturbation": "-10%",
+        "Base_Prob": 0.9990153482541625,
+        "Perturbed_Prob": 0.9990130678607734,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Emaar Properties",
+        "Category": "High GO",
+        "Variable": "V1",
+        "Perturbation": "-20%",
+        "Base_Prob": 0.9990153482541625,
+        "Perturbed_Prob": 0.9990107821913615,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Emaar Properties",
+        "Category": "High GO",
+        "Variable": "V2",
+        "Perturbation": "+10%",
+        "Base_Prob": 0.9990153482541625,
+        "Perturbed_Prob": 0.9990672130496864,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Emaar Properties",
+        "Category": "High GO",
+        "Variable": "V2",
+        "Perturbation": "+20%",
+        "Base_Prob": 0.9990153482541625,
+        "Perturbed_Prob": 0.9991163483749192,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Emaar Properties",
+        "Category": "High GO",
+        "Variable": "V2",
+        "Perturbation": "-10%",
+        "Base_Prob": 0.9990153482541625,
+        "Perturbed_Prob": 0.9989606026738368,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Emaar Properties",
+        "Category": "High GO",
+        "Variable": "V2",
+        "Perturbation": "-20%",
+        "Base_Prob": 0.9990153482541625,
+        "Perturbed_Prob": 0.9989028166408918,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Emaar Properties",
+        "Category": "High GO",
+        "Variable": "V3",
+        "Perturbation": "+10%",
+        "Base_Prob": 0.9990153482541625,
+        "Perturbed_Prob": 0.9991894420421925,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Emaar Properties",
+        "Category": "High GO",
+        "Variable": "V3",
+        "Perturbation": "+20%",
+        "Base_Prob": 0.9990153482541625,
+        "Perturbed_Prob": 0.9993327753054491,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Emaar Properties",
+        "Category": "High GO",
+        "Variable": "V3",
+        "Perturbation": "-10%",
+        "Base_Prob": 0.9990153482541625,
+        "Perturbed_Prob": 0.9988039069015726,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Emaar Properties",
+        "Category": "High GO",
+        "Variable": "V3",
+        "Perturbation": "-20%",
+        "Base_Prob": 0.9990153482541625,
+        "Perturbed_Prob": 0.9985471272580341,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Emaar Properties",
+        "Category": "High GO",
+        "Variable": "V4",
+        "Perturbation": "+10%",
+        "Base_Prob": 0.9990153482541625,
+        "Perturbed_Prob": 0.9992166408684302,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Emaar Properties",
+        "Category": "High GO",
+        "Variable": "V4",
+        "Perturbation": "+20%",
+        "Base_Prob": 0.9990153482541625,
+        "Perturbed_Prob": 0.9993768088506273,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Emaar Properties",
+        "Category": "High GO",
+        "Variable": "V4",
+        "Perturbation": "-10%",
+        "Base_Prob": 0.9990153482541625,
+        "Perturbed_Prob": 0.9987623953866801,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Emaar Properties",
+        "Category": "High GO",
+        "Variable": "V4",
+        "Perturbation": "-20%",
+        "Base_Prob": 0.9990153482541625,
+        "Perturbed_Prob": 0.9984445611737351,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Emaar Properties",
+        "Category": "High GO",
+        "Variable": "V5",
+        "Perturbation": "+10%",
+        "Base_Prob": 0.9990153482541625,
+        "Perturbed_Prob": 0.9990209913678647,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Emaar Properties",
+        "Category": "High GO",
+        "Variable": "V5",
+        "Perturbation": "+20%",
+        "Base_Prob": 0.9990153482541625,
+        "Perturbed_Prob": 0.9990266021719669,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Emaar Properties",
+        "Category": "High GO",
+        "Variable": "V5",
+        "Perturbation": "-10%",
+        "Base_Prob": 0.9990153482541625,
+        "Perturbed_Prob": 0.9990096726451753,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Emaar Properties",
+        "Category": "High GO",
+        "Variable": "V5",
+        "Perturbation": "-20%",
+        "Base_Prob": 0.9990153482541625,
+        "Perturbed_Prob": 0.999003964354155,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Emaar Properties",
+        "Category": "High GO",
+        "Variable": "V6",
+        "Perturbation": "+10%",
+        "Base_Prob": 0.9990153482541625,
+        "Perturbed_Prob": 0.9989668834439026,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Emaar Properties",
+        "Category": "High GO",
+        "Variable": "V6",
+        "Perturbation": "+20%",
+        "Base_Prob": 0.9990153482541625,
+        "Perturbed_Prob": 0.9989160357716025,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Emaar Properties",
+        "Category": "High GO",
+        "Variable": "V6",
+        "Perturbation": "-10%",
+        "Base_Prob": 0.9990153482541625,
+        "Perturbed_Prob": 0.9990615416544315,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Emaar Properties",
+        "Category": "High GO",
+        "Variable": "V6",
+        "Perturbation": "-20%",
+        "Base_Prob": 0.9990153482541625,
+        "Perturbed_Prob": 0.9991055699036261,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Tesco PLC",
+        "Category": "Borderline COND",
+        "Variable": "V1",
+        "Perturbation": "+10%",
+        "Base_Prob": 0.5377316755314501,
+        "Perturbed_Prob": 0.53693671873174,
+        "Base_Verdict": "CONDITIONAL",
+        "Perturbed_Verdict": "CONDITIONAL",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Tesco PLC",
+        "Category": "Borderline COND",
+        "Variable": "V1",
+        "Perturbation": "+20%",
+        "Base_Prob": 0.5377316755314501,
+        "Perturbed_Prob": 0.5361415741238494,
+        "Base_Verdict": "CONDITIONAL",
+        "Perturbed_Verdict": "CONDITIONAL",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Tesco PLC",
+        "Category": "Borderline COND",
+        "Variable": "V1",
+        "Perturbation": "-10%",
+        "Base_Prob": 0.5377316755314501,
+        "Perturbed_Prob": 0.5385264405267489,
+        "Base_Verdict": "CONDITIONAL",
+        "Perturbed_Verdict": "CONDITIONAL",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Tesco PLC",
+        "Category": "Borderline COND",
+        "Variable": "V1",
+        "Perturbation": "-20%",
+        "Base_Prob": 0.5377316755314501,
+        "Perturbed_Prob": 0.5393210097252955,
+        "Base_Verdict": "CONDITIONAL",
+        "Perturbed_Verdict": "CONDITIONAL",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Tesco PLC",
+        "Category": "Borderline COND",
+        "Variable": "V2",
+        "Perturbation": "+10%",
+        "Base_Prob": 0.5377316755314501,
+        "Perturbed_Prob": 0.5409336884700914,
+        "Base_Verdict": "CONDITIONAL",
+        "Perturbed_Verdict": "CONDITIONAL",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Tesco PLC",
+        "Category": "Borderline COND",
+        "Variable": "V2",
+        "Perturbation": "+20%",
+        "Base_Prob": 0.5377316755314501,
+        "Perturbed_Prob": 0.5441323248106275,
+        "Base_Verdict": "CONDITIONAL",
+        "Perturbed_Verdict": "CONDITIONAL",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Tesco PLC",
+        "Category": "Borderline COND",
+        "Variable": "V2",
+        "Perturbation": "-10%",
+        "Base_Prob": 0.5377316755314501,
+        "Perturbed_Prob": 0.5345265469700463,
+        "Base_Verdict": "CONDITIONAL",
+        "Perturbed_Verdict": "CONDITIONAL",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Tesco PLC",
+        "Category": "Borderline COND",
+        "Variable": "V2",
+        "Perturbation": "-20%",
+        "Base_Prob": 0.5377316755314501,
+        "Perturbed_Prob": 0.5313185647872806,
+        "Base_Verdict": "CONDITIONAL",
+        "Perturbed_Verdict": "CONDITIONAL",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Tesco PLC",
+        "Category": "Borderline COND",
+        "Variable": "V3",
+        "Perturbation": "+10%",
+        "Base_Prob": 0.5377316755314501,
+        "Perturbed_Prob": 0.5437251919164166,
+        "Base_Verdict": "CONDITIONAL",
+        "Perturbed_Verdict": "CONDITIONAL",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Tesco PLC",
+        "Category": "Borderline COND",
+        "Variable": "V3",
+        "Perturbation": "+20%",
+        "Base_Prob": 0.5377316755314501,
+        "Perturbed_Prob": 0.5497060725054866,
+        "Base_Verdict": "CONDITIONAL",
+        "Perturbed_Verdict": "CONDITIONAL",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Tesco PLC",
+        "Category": "Borderline COND",
+        "Variable": "V3",
+        "Perturbation": "-10%",
+        "Base_Prob": 0.5377316755314501,
+        "Perturbed_Prob": 0.5317272339148217,
+        "Base_Verdict": "CONDITIONAL",
+        "Perturbed_Verdict": "CONDITIONAL",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Tesco PLC",
+        "Category": "Borderline COND",
+        "Variable": "V3",
+        "Perturbation": "-20%",
+        "Base_Prob": 0.5377316755314501,
+        "Perturbed_Prob": 0.5257135902454473,
+        "Base_Verdict": "CONDITIONAL",
+        "Perturbed_Verdict": "CONDITIONAL",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Tesco PLC",
+        "Category": "Borderline COND",
+        "Variable": "V4",
+        "Perturbation": "+10%",
+        "Base_Prob": 0.5377316755314501,
+        "Perturbed_Prob": 0.5413255324424177,
+        "Base_Verdict": "CONDITIONAL",
+        "Perturbed_Verdict": "CONDITIONAL",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Tesco PLC",
+        "Category": "Borderline COND",
+        "Variable": "V4",
+        "Perturbation": "+20%",
+        "Base_Prob": 0.5377316755314501,
+        "Perturbed_Prob": 0.5449150950997057,
+        "Base_Verdict": "CONDITIONAL",
+        "Perturbed_Verdict": "CONDITIONAL",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Tesco PLC",
+        "Category": "Borderline COND",
+        "Variable": "V4",
+        "Perturbation": "-10%",
+        "Base_Prob": 0.5377316755314501,
+        "Perturbed_Prob": 0.5341338933283644,
+        "Base_Verdict": "CONDITIONAL",
+        "Perturbed_Verdict": "CONDITIONAL",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Tesco PLC",
+        "Category": "Borderline COND",
+        "Variable": "V4",
+        "Perturbation": "-20%",
+        "Base_Prob": 0.5377316755314501,
+        "Perturbed_Prob": 0.530532556423339,
+        "Base_Verdict": "CONDITIONAL",
+        "Perturbed_Verdict": "CONDITIONAL",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Tesco PLC",
+        "Category": "Borderline COND",
+        "Variable": "V5",
+        "Perturbation": "+10%",
+        "Base_Prob": 0.5377316755314501,
+        "Perturbed_Prob": 0.5472070556944088,
+        "Base_Verdict": "CONDITIONAL",
+        "Perturbed_Verdict": "CONDITIONAL",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Tesco PLC",
+        "Category": "Borderline COND",
+        "Variable": "V5",
+        "Perturbation": "+20%",
+        "Base_Prob": 0.5377316755314501,
+        "Perturbed_Prob": 0.5566483469086891,
+        "Base_Verdict": "CONDITIONAL",
+        "Perturbed_Verdict": "CONDITIONAL",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Tesco PLC",
+        "Category": "Borderline COND",
+        "Variable": "V5",
+        "Perturbation": "-10%",
+        "Base_Prob": 0.5377316755314501,
+        "Perturbed_Prob": 0.5282289602669723,
+        "Base_Verdict": "CONDITIONAL",
+        "Perturbed_Verdict": "CONDITIONAL",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Tesco PLC",
+        "Category": "Borderline COND",
+        "Variable": "V5",
+        "Perturbation": "-20%",
+        "Base_Prob": 0.5377316755314501,
+        "Perturbed_Prob": 0.5187057426915546,
+        "Base_Verdict": "CONDITIONAL",
+        "Perturbed_Verdict": "CONDITIONAL",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Tesco PLC",
+        "Category": "Borderline COND",
+        "Variable": "V6",
+        "Perturbation": "+10%",
+        "Base_Prob": 0.5377316755314501,
+        "Perturbed_Prob": 0.45646473679413563,
+        "Base_Verdict": "CONDITIONAL",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": true
+      },
+      {
+        "Company": "Tesco PLC",
+        "Category": "Borderline COND",
+        "Variable": "V6",
+        "Perturbation": "+20%",
+        "Base_Prob": 0.5377316755314501,
+        "Perturbed_Prob": 0.37745126533220763,
+        "Base_Verdict": "CONDITIONAL",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": true
+      },
+      {
+        "Company": "Tesco PLC",
+        "Category": "Borderline COND",
+        "Variable": "V6",
+        "Perturbation": "-10%",
+        "Base_Prob": 0.5377316755314501,
+        "Perturbed_Prob": 0.6170419351806087,
+        "Base_Verdict": "CONDITIONAL",
+        "Perturbed_Verdict": "CONDITIONAL",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Tesco PLC",
+        "Category": "Borderline COND",
+        "Variable": "V6",
+        "Perturbation": "-20%",
+        "Base_Prob": 0.5377316755314501,
+        "Perturbed_Prob": 0.6905749924209188,
+        "Base_Verdict": "CONDITIONAL",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": true
+      },
+      {
+        "Company": "Pier 1 Imports",
+        "Category": "Clear NO-GO",
+        "Variable": "V1",
+        "Perturbation": "+10%",
+        "Base_Prob": 0.19031333716944862,
+        "Perturbed_Prob": 0.18966158257623794,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Pier 1 Imports",
+        "Category": "Clear NO-GO",
+        "Variable": "V1",
+        "Perturbation": "+20%",
+        "Base_Prob": 0.19031333716944862,
+        "Perturbed_Prob": 0.18901153896853184,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Pier 1 Imports",
+        "Category": "Clear NO-GO",
+        "Variable": "V1",
+        "Perturbation": "-10%",
+        "Base_Prob": 0.19031333716944862,
+        "Perturbed_Prob": 0.19096680364416294,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Pier 1 Imports",
+        "Category": "Clear NO-GO",
+        "Variable": "V1",
+        "Perturbation": "-20%",
+        "Base_Prob": 0.19031333716944862,
+        "Perturbed_Prob": 0.1916219828703071,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Pier 1 Imports",
+        "Category": "Clear NO-GO",
+        "Variable": "V2",
+        "Perturbation": "+10%",
+        "Base_Prob": 0.19031333716944862,
+        "Perturbed_Prob": 0.1782690462042233,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Pier 1 Imports",
+        "Category": "Clear NO-GO",
+        "Variable": "V2",
+        "Perturbation": "+20%",
+        "Base_Prob": 0.19031333716944862,
+        "Perturbed_Prob": 0.1668299434432253,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Pier 1 Imports",
+        "Category": "Clear NO-GO",
+        "Variable": "V2",
+        "Perturbation": "-10%",
+        "Base_Prob": 0.19031333716944862,
+        "Perturbed_Prob": 0.20297037278496555,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Pier 1 Imports",
+        "Category": "Clear NO-GO",
+        "Variable": "V2",
+        "Perturbation": "-20%",
+        "Base_Prob": 0.19031333716944862,
+        "Perturbed_Prob": 0.2162443673803745,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Pier 1 Imports",
+        "Category": "Clear NO-GO",
+        "Variable": "V3",
+        "Perturbation": "+10%",
+        "Base_Prob": 0.19031333716944862,
+        "Perturbed_Prob": 0.1850558632524976,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Pier 1 Imports",
+        "Category": "Clear NO-GO",
+        "Variable": "V3",
+        "Perturbation": "+20%",
+        "Base_Prob": 0.19031333716944862,
+        "Perturbed_Prob": 0.17991135687532506,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Pier 1 Imports",
+        "Category": "Clear NO-GO",
+        "Variable": "V3",
+        "Perturbation": "-10%",
+        "Base_Prob": 0.19031333716944862,
+        "Perturbed_Prob": 0.1956843112455239,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Pier 1 Imports",
+        "Category": "Clear NO-GO",
+        "Variable": "V3",
+        "Perturbation": "-20%",
+        "Base_Prob": 0.19031333716944862,
+        "Perturbed_Prob": 0.2011692034773266,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Pier 1 Imports",
+        "Category": "Clear NO-GO",
+        "Variable": "V4",
+        "Perturbation": "+10%",
+        "Base_Prob": 0.19031333716944862,
+        "Perturbed_Prob": 0.18654871048330982,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Pier 1 Imports",
+        "Category": "Clear NO-GO",
+        "Variable": "V4",
+        "Perturbation": "+20%",
+        "Base_Prob": 0.19031333716944862,
+        "Perturbed_Prob": 0.18284173624318784,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Pier 1 Imports",
+        "Category": "Clear NO-GO",
+        "Variable": "V4",
+        "Perturbation": "-10%",
+        "Base_Prob": 0.19031333716944862,
+        "Perturbed_Prob": 0.19413580434629568,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Pier 1 Imports",
+        "Category": "Clear NO-GO",
+        "Variable": "V4",
+        "Perturbation": "-20%",
+        "Base_Prob": 0.19031333716944862,
+        "Perturbed_Prob": 0.19801627029250382,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Pier 1 Imports",
+        "Category": "Clear NO-GO",
+        "Variable": "V5",
+        "Perturbation": "+10%",
+        "Base_Prob": 0.19031333716944862,
+        "Perturbed_Prob": 0.19170377040533038,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Pier 1 Imports",
+        "Category": "Clear NO-GO",
+        "Variable": "V5",
+        "Perturbation": "+20%",
+        "Base_Prob": 0.19031333716944862,
+        "Perturbed_Prob": 0.19310193946966728,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Pier 1 Imports",
+        "Category": "Clear NO-GO",
+        "Variable": "V5",
+        "Perturbation": "-10%",
+        "Base_Prob": 0.19031333716944862,
+        "Perturbed_Prob": 0.18893063156058548,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Pier 1 Imports",
+        "Category": "Clear NO-GO",
+        "Variable": "V5",
+        "Perturbation": "-20%",
+        "Base_Prob": 0.19031333716944862,
+        "Perturbed_Prob": 0.18755564484601522,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Pier 1 Imports",
+        "Category": "Clear NO-GO",
+        "Variable": "V6",
+        "Perturbation": "+10%",
+        "Base_Prob": 0.19031333716944862,
+        "Perturbed_Prob": 0.15280893468564108,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Pier 1 Imports",
+        "Category": "Clear NO-GO",
+        "Variable": "V6",
+        "Perturbation": "+20%",
+        "Base_Prob": 0.19031333716944862,
+        "Perturbed_Prob": 0.12158555755629277,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Pier 1 Imports",
+        "Category": "Clear NO-GO",
+        "Variable": "V6",
+        "Perturbation": "-10%",
+        "Base_Prob": 0.19031333716944862,
+        "Perturbed_Prob": 0.23447497138156242,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Pier 1 Imports",
+        "Category": "Clear NO-GO",
+        "Variable": "V6",
+        "Perturbation": "-20%",
+        "Base_Prob": 0.19031333716944862,
+        "Perturbed_Prob": 0.2852736922320371,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Ford Motor Company",
+        "Category": "Moderate Recovered",
+        "Variable": "V1",
+        "Perturbation": "+10%",
+        "Base_Prob": 0.850575684206088,
+        "Perturbed_Prob": 0.8506702553039144,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Ford Motor Company",
+        "Category": "Moderate Recovered",
+        "Variable": "V1",
+        "Perturbation": "+20%",
+        "Base_Prob": 0.850575684206088,
+        "Perturbed_Prob": 0.8507647770489728,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Ford Motor Company",
+        "Category": "Moderate Recovered",
+        "Variable": "V1",
+        "Perturbation": "-10%",
+        "Base_Prob": 0.850575684206088,
+        "Perturbed_Prob": 0.850481063743045,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Ford Motor Company",
+        "Category": "Moderate Recovered",
+        "Variable": "V1",
+        "Perturbation": "-20%",
+        "Base_Prob": 0.850575684206088,
+        "Perturbed_Prob": 0.8503863939023513,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Ford Motor Company",
+        "Category": "Moderate Recovered",
+        "Variable": "V2",
+        "Perturbation": "+10%",
+        "Base_Prob": 0.850575684206088,
+        "Perturbed_Prob": 0.8522557400019516,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Ford Motor Company",
+        "Category": "Moderate Recovered",
+        "Variable": "V2",
+        "Perturbation": "+20%",
+        "Base_Prob": 0.850575684206088,
+        "Perturbed_Prob": 0.853920150220219,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Ford Motor Company",
+        "Category": "Moderate Recovered",
+        "Variable": "V2",
+        "Perturbation": "-10%",
+        "Base_Prob": 0.850575684206088,
+        "Perturbed_Prob": 0.8488799114371527,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Ford Motor Company",
+        "Category": "Moderate Recovered",
+        "Variable": "V2",
+        "Perturbation": "-20%",
+        "Base_Prob": 0.850575684206088,
+        "Perturbed_Prob": 0.8471683517554978,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Ford Motor Company",
+        "Category": "Moderate Recovered",
+        "Variable": "V3",
+        "Perturbation": "+10%",
+        "Base_Prob": 0.850575684206088,
+        "Perturbed_Prob": 0.8507832057073503,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Ford Motor Company",
+        "Category": "Moderate Recovered",
+        "Variable": "V3",
+        "Perturbation": "+20%",
+        "Base_Prob": 0.850575684206088,
+        "Perturbed_Prob": 0.8509904894914145,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Ford Motor Company",
+        "Category": "Moderate Recovered",
+        "Variable": "V3",
+        "Perturbation": "-10%",
+        "Base_Prob": 0.850575684206088,
+        "Perturbed_Prob": 0.8503679248558825,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Ford Motor Company",
+        "Category": "Moderate Recovered",
+        "Variable": "V3",
+        "Perturbation": "-20%",
+        "Base_Prob": 0.850575684206088,
+        "Perturbed_Prob": 0.8501599275253228,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Ford Motor Company",
+        "Category": "Moderate Recovered",
+        "Variable": "V4",
+        "Perturbation": "+10%",
+        "Base_Prob": 0.850575684206088,
+        "Perturbed_Prob": 0.8517569156970347,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Ford Motor Company",
+        "Category": "Moderate Recovered",
+        "Variable": "V4",
+        "Perturbation": "+20%",
+        "Base_Prob": 0.850575684206088,
+        "Perturbed_Prob": 0.852930423874436,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Ford Motor Company",
+        "Category": "Moderate Recovered",
+        "Variable": "V4",
+        "Perturbation": "-10%",
+        "Base_Prob": 0.850575684206088,
+        "Perturbed_Prob": 0.8493867047633615,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Ford Motor Company",
+        "Category": "Moderate Recovered",
+        "Variable": "V4",
+        "Perturbation": "-20%",
+        "Base_Prob": 0.850575684206088,
+        "Perturbed_Prob": 0.8481899530844007,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Ford Motor Company",
+        "Category": "Moderate Recovered",
+        "Variable": "V5",
+        "Perturbation": "+10%",
+        "Base_Prob": 0.850575684206088,
+        "Perturbed_Prob": 0.8520739610782264,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Ford Motor Company",
+        "Category": "Moderate Recovered",
+        "Variable": "V5",
+        "Perturbation": "+20%",
+        "Base_Prob": 0.850575684206088,
+        "Perturbed_Prob": 0.8535598012221471,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Ford Motor Company",
+        "Category": "Moderate Recovered",
+        "Variable": "V5",
+        "Perturbation": "-10%",
+        "Base_Prob": 0.850575684206088,
+        "Perturbed_Prob": 0.849064920099067,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Ford Motor Company",
+        "Category": "Moderate Recovered",
+        "Variable": "V5",
+        "Perturbation": "-20%",
+        "Base_Prob": 0.850575684206088,
+        "Perturbed_Prob": 0.8475416191694644,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Ford Motor Company",
+        "Category": "Moderate Recovered",
+        "Variable": "V6",
+        "Perturbation": "+10%",
+        "Base_Prob": 0.850575684206088,
+        "Perturbed_Prob": 0.8350384434909207,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Ford Motor Company",
+        "Category": "Moderate Recovered",
+        "Variable": "V6",
+        "Perturbation": "+20%",
+        "Base_Prob": 0.850575684206088,
+        "Perturbed_Prob": 0.818230880024349,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Ford Motor Company",
+        "Category": "Moderate Recovered",
+        "Variable": "V6",
+        "Perturbation": "-10%",
+        "Base_Prob": 0.850575684206088,
+        "Perturbed_Prob": 0.8648863052568587,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Ford Motor Company",
+        "Category": "Moderate Recovered",
+        "Variable": "V6",
+        "Perturbation": "-20%",
+        "Base_Prob": 0.850575684206088,
+        "Perturbed_Prob": 0.8780229183028334,
+        "Base_Verdict": "GO",
+        "Perturbed_Verdict": "GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Nine West Holdings",
+        "Category": "Failed",
+        "Variable": "V1",
+        "Perturbation": "+10%",
+        "Base_Prob": 0.4702811765931948,
+        "Perturbed_Prob": 0.46996904491729974,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Nine West Holdings",
+        "Category": "Failed",
+        "Variable": "V1",
+        "Perturbation": "+20%",
+        "Base_Prob": 0.4702811765931948,
+        "Perturbed_Prob": 0.46965693673079023,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Nine West Holdings",
+        "Category": "Failed",
+        "Variable": "V1",
+        "Perturbation": "-10%",
+        "Base_Prob": 0.4702811765931948,
+        "Perturbed_Prob": 0.47059333151607496,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Nine West Holdings",
+        "Category": "Failed",
+        "Variable": "V1",
+        "Perturbation": "-20%",
+        "Base_Prob": 0.4702811765931948,
+        "Perturbed_Prob": 0.4709055094434672,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Nine West Holdings",
+        "Category": "Failed",
+        "Variable": "V2",
+        "Perturbation": "+10%",
+        "Base_Prob": 0.4702811765931948,
+        "Perturbed_Prob": 0.43855204676702525,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Nine West Holdings",
+        "Category": "Failed",
+        "Variable": "V2",
+        "Perturbation": "+20%",
+        "Base_Prob": 0.4702811765931948,
+        "Perturbed_Prob": 0.4073175682840826,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Nine West Holdings",
+        "Category": "Failed",
+        "Variable": "V2",
+        "Perturbation": "-10%",
+        "Base_Prob": 0.4702811765931948,
+        "Perturbed_Prob": 0.5022523397648849,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "CONDITIONAL",
+        "Verdict_Changed": true
+      },
+      {
+        "Company": "Nine West Holdings",
+        "Category": "Failed",
+        "Variable": "V2",
+        "Perturbation": "-20%",
+        "Base_Prob": 0.4702811765931948,
+        "Perturbed_Prob": 0.5342050952395723,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "CONDITIONAL",
+        "Verdict_Changed": true
+      },
+      {
+        "Company": "Nine West Holdings",
+        "Category": "Failed",
+        "Variable": "V3",
+        "Perturbation": "+10%",
+        "Base_Prob": 0.4702811765931948,
+        "Perturbed_Prob": 0.46966519172520227,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Nine West Holdings",
+        "Category": "Failed",
+        "Variable": "V3",
+        "Perturbation": "+20%",
+        "Base_Prob": 0.4702811765931948,
+        "Perturbed_Prob": 0.4690492992648062,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Nine West Holdings",
+        "Category": "Failed",
+        "Variable": "V3",
+        "Perturbation": "-10%",
+        "Base_Prob": 0.4702811765931948,
+        "Perturbed_Prob": 0.47089725200578125,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Nine West Holdings",
+        "Category": "Failed",
+        "Variable": "V3",
+        "Perturbation": "-20%",
+        "Base_Prob": 0.4702811765931948,
+        "Perturbed_Prob": 0.4715134160988577,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Nine West Holdings",
+        "Category": "Failed",
+        "Variable": "V4",
+        "Perturbation": "+10%",
+        "Base_Prob": 0.4702811765931948,
+        "Perturbed_Prob": 0.46979817857710426,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Nine West Holdings",
+        "Category": "Failed",
+        "Variable": "V4",
+        "Perturbation": "+20%",
+        "Base_Prob": 0.4702811765931948,
+        "Perturbed_Prob": 0.46931523712635564,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Nine West Holdings",
+        "Category": "Failed",
+        "Variable": "V4",
+        "Perturbation": "-10%",
+        "Base_Prob": 0.4702811765931948,
+        "Perturbed_Prob": 0.47076423027648184,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Nine West Holdings",
+        "Category": "Failed",
+        "Variable": "V4",
+        "Perturbation": "-20%",
+        "Base_Prob": 0.4702811765931948,
+        "Perturbed_Prob": 0.4712473387284036,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Nine West Holdings",
+        "Category": "Failed",
+        "Variable": "V5",
+        "Perturbation": "+10%",
+        "Base_Prob": 0.4702811765931948,
+        "Perturbed_Prob": 0.47109169444007115,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Nine West Holdings",
+        "Category": "Failed",
+        "Variable": "V5",
+        "Perturbation": "+20%",
+        "Base_Prob": 0.4702811765931948,
+        "Perturbed_Prob": 0.471902364753173,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Nine West Holdings",
+        "Category": "Failed",
+        "Variable": "V5",
+        "Perturbation": "-10%",
+        "Base_Prob": 0.4702811765931948,
+        "Perturbed_Prob": 0.46947081545743025,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Nine West Holdings",
+        "Category": "Failed",
+        "Variable": "V5",
+        "Perturbation": "-20%",
+        "Base_Prob": 0.4702811765931948,
+        "Perturbed_Prob": 0.4686606152743641,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Nine West Holdings",
+        "Category": "Failed",
+        "Variable": "V6",
+        "Perturbation": "+10%",
+        "Base_Prob": 0.4702811765931948,
+        "Perturbed_Prob": 0.43661028971536864,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Nine West Holdings",
+        "Category": "Failed",
+        "Variable": "V6",
+        "Perturbation": "+20%",
+        "Base_Prob": 0.4702811765931948,
+        "Perturbed_Prob": 0.4035137611159325,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "NO-GO",
+        "Verdict_Changed": false
+      },
+      {
+        "Company": "Nine West Holdings",
+        "Category": "Failed",
+        "Variable": "V6",
+        "Perturbation": "-10%",
+        "Base_Prob": 0.4702811765931948,
+        "Perturbed_Prob": 0.5042247544547037,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "CONDITIONAL",
+        "Verdict_Changed": true
+      },
+      {
+        "Company": "Nine West Holdings",
+        "Category": "Failed",
+        "Variable": "V6",
+        "Perturbation": "-20%",
+        "Base_Prob": 0.4702811765931948,
+        "Perturbed_Prob": 0.5381294332014418,
+        "Base_Verdict": "NO-GO",
+        "Perturbed_Verdict": "CONDITIONAL",
+        "Verdict_Changed": true
+      }
+    ],
+    "variable_sensitivity": [
+      {
+        "Variable": "V1: Working Capital / Total Assets",
+        "Avg_Prob_Change": 0.000556946148905571,
+        "Verdict_Flips": 0,
+        "Sensitivity_Level": "LOW"
+      },
+      {
+        "Variable": "V2: Retained Earnings / Total Assets",
+        "Avg_Prob_Change": 0.014718612056701502,
+        "Verdict_Flips": 2,
+        "Sensitivity_Level": "LOW"
+      },
+      {
+        "Variable": "V3: EBITDA / Total Debt",
+        "Avg_Prob_Change": 0.0036994968988443523,
+        "Verdict_Flips": 0,
+        "Sensitivity_Level": "LOW"
+      },
+      {
+        "Variable": "V4: Operating Cash Flow / Total Debt",
+        "Avg_Prob_Change": 0.0027865566943249044,
+        "Verdict_Flips": 0,
+        "Sensitivity_Level": "LOW"
+      },
+      {
+        "Variable": "V5: Collateral Value / Total Liabilities",
+        "Avg_Prob_Change": 0.003958197057338071,
+        "Verdict_Flips": 0,
+        "Sensitivity_Level": "LOW"
+      },
+      {
+        "Variable": "V6: Revenue / Total Assets",
+        "Avg_Prob_Change": 0.05056046630293345,
+        "Verdict_Flips": 5,
+        "Sensitivity_Level": "HIGH"
+      }
+    ],
+    "full_perturbation": [
+      {
+        "Variable": "V1",
+        "Perturbation": "+10%",
+        "Predictions_Changed": 0,
+        "Pct_Changed": 0.0
+      },
+      {
+        "Variable": "V2",
+        "Perturbation": "+10%",
+        "Predictions_Changed": 1,
+        "Pct_Changed": 2.3255813953488373
+      },
+      {
+        "Variable": "V3",
+        "Perturbation": "+10%",
+        "Predictions_Changed": 0,
+        "Pct_Changed": 0.0
+      },
+      {
+        "Variable": "V4",
+        "Perturbation": "+10%",
+        "Predictions_Changed": 0,
+        "Pct_Changed": 0.0
+      },
+      {
+        "Variable": "V5",
+        "Perturbation": "+10%",
+        "Predictions_Changed": 0,
+        "Pct_Changed": 0.0
+      },
+      {
+        "Variable": "V6",
+        "Perturbation": "+10%",
+        "Predictions_Changed": 2,
+        "Pct_Changed": 4.651162790697675
+      },
+      {
+        "Variable": "V1",
+        "Perturbation": "+20%",
+        "Predictions_Changed": 0,
+        "Pct_Changed": 0.0
+      },
+      {
+        "Variable": "V2",
+        "Perturbation": "+20%",
+        "Predictions_Changed": 1,
+        "Pct_Changed": 2.3255813953488373
+      },
+      {
+        "Variable": "V3",
+        "Perturbation": "+20%",
+        "Predictions_Changed": 0,
+        "Pct_Changed": 0.0
+      },
+      {
+        "Variable": "V4",
+        "Perturbation": "+20%",
+        "Predictions_Changed": 0,
+        "Pct_Changed": 0.0
+      },
+      {
+        "Variable": "V5",
+        "Perturbation": "+20%",
+        "Predictions_Changed": 0,
+        "Pct_Changed": 0.0
+      },
+      {
+        "Variable": "V6",
+        "Perturbation": "+20%",
+        "Predictions_Changed": 2,
+        "Pct_Changed": 4.651162790697675
+      },
+      {
+        "Variable": "V1",
+        "Perturbation": "-10%",
+        "Predictions_Changed": 0,
+        "Pct_Changed": 0.0
+      },
+      {
+        "Variable": "V2",
+        "Perturbation": "-10%",
+        "Predictions_Changed": 1,
+        "Pct_Changed": 2.3255813953488373
+      },
+      {
+        "Variable": "V3",
+        "Perturbation": "-10%",
+        "Predictions_Changed": 0,
+        "Pct_Changed": 0.0
+      },
+      {
+        "Variable": "V4",
+        "Perturbation": "-10%",
+        "Predictions_Changed": 0,
+        "Pct_Changed": 0.0
+      },
+      {
+        "Variable": "V5",
+        "Perturbation": "-10%",
+        "Predictions_Changed": 0,
+        "Pct_Changed": 0.0
+      },
+      {
+        "Variable": "V6",
+        "Perturbation": "-10%",
+        "Predictions_Changed": 1,
+        "Pct_Changed": 2.3255813953488373
+      },
+      {
+        "Variable": "V1",
+        "Perturbation": "-20%",
+        "Predictions_Changed": 0,
+        "Pct_Changed": 0.0
+      },
+      {
+        "Variable": "V2",
+        "Perturbation": "-20%",
+        "Predictions_Changed": 1,
+        "Pct_Changed": 2.3255813953488373
+      },
+      {
+        "Variable": "V3",
+        "Perturbation": "-20%",
+        "Predictions_Changed": 0,
+        "Pct_Changed": 0.0
+      },
+      {
+        "Variable": "V4",
+        "Perturbation": "-20%",
+        "Predictions_Changed": 0,
+        "Pct_Changed": 0.0
+      },
+      {
+        "Variable": "V5",
+        "Perturbation": "-20%",
+        "Predictions_Changed": 0,
+        "Pct_Changed": 0.0
+      },
+      {
+        "Variable": "V6",
+        "Perturbation": "-20%",
+        "Predictions_Changed": 3,
+        "Pct_Changed": 6.976744186046512
+      }
+    ],
+    "total_perturbations": 120,
+    "verdict_changes": 7,
+    "verdict_change_pct": 5.833333333333333,
+    "pass": true,
+    "verdict": "PASS"
+  },
+  "test_7": {
+    "altman_table": [
+      {
+        "Company": "Ford Motor Company",
+        "Z_Score": 0.9189455893097893,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 1,
+        "LR_Prob": 0.8505667317548072,
+        "LR_Pred": 1,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "American Airlines",
+        "Z_Score": 0.7112360358726972,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 1,
+        "LR_Prob": 0.7505357085488147,
+        "LR_Pred": 1,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Delta Air Lines",
+        "Z_Score": 1.3478056740585278,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 1,
+        "LR_Prob": 0.9127072849922203,
+        "LR_Pred": 1,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Carnival Corporation",
+        "Z_Score": 1.0677303566503764,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 1,
+        "LR_Prob": 0.930192870259133,
+        "LR_Pred": 1,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Macy's Inc",
+        "Z_Score": 2.782981734005837,
+        "Altman_Zone": "Gray",
+        "Altman_Pred": 1,
+        "Actual": 1,
+        "LR_Prob": 0.820626243675719,
+        "LR_Pred": 1,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Cleveland-Cliffs",
+        "Z_Score": 1.329144545599618,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 1,
+        "LR_Prob": 0.7511136799612533,
+        "LR_Pred": 1,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Occidental Petroleum",
+        "Z_Score": 1.5306318202555684,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 1,
+        "LR_Prob": 0.9789095289049603,
+        "LR_Pred": 1,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Schlumberger (SLB)",
+        "Z_Score": 2.228841785684926,
+        "Altman_Zone": "Gray",
+        "Altman_Pred": 1,
+        "Actual": 1,
+        "LR_Prob": 0.9501500742276,
+        "LR_Pred": 1,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Halliburton",
+        "Z_Score": 2.8719958074598493,
+        "Altman_Zone": "Gray",
+        "Altman_Pred": 1,
+        "Actual": 1,
+        "LR_Prob": 0.9413044604124772,
+        "LR_Pred": 1,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Transocean",
+        "Z_Score": -0.07715001602860266,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 1,
+        "LR_Prob": 0.8719480556570004,
+        "LR_Pred": 1,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Norwegian Cruise Line",
+        "Z_Score": 0.29821939492484706,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 1,
+        "LR_Prob": 0.8748931649222221,
+        "LR_Pred": 1,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Under Armour",
+        "Z_Score": 2.2611985321998604,
+        "Altman_Zone": "Gray",
+        "Altman_Pred": 1,
+        "Actual": 1,
+        "LR_Prob": 0.7113217702523125,
+        "LR_Pred": 1,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Kohl's Corporation",
+        "Z_Score": 1.982015713234583,
+        "Altman_Zone": "Gray",
+        "Altman_Pred": 1,
+        "Actual": 1,
+        "LR_Prob": 0.797085435880375,
+        "LR_Pred": 1,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Rolls-Royce Holdings",
+        "Z_Score": 1.4528064835464294,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 1,
+        "LR_Prob": 0.9789820071264714,
+        "LR_Pred": 1,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Tesco PLC",
+        "Z_Score": 2.411783044216995,
+        "Altman_Zone": "Gray",
+        "Altman_Pred": 1,
+        "Actual": 1,
+        "LR_Prob": 0.537701443005752,
+        "LR_Pred": 1,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Devon Energy",
+        "Z_Score": 2.361857247683357,
+        "Altman_Zone": "Gray",
+        "Altman_Pred": 1,
+        "Actual": 1,
+        "LR_Prob": 0.9830265894143283,
+        "LR_Pred": 1,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Bank Muscat (Oman)",
+        "Z_Score": 0.2060551425105109,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 1,
+        "LR_Prob": 0.9479171824099536,
+        "LR_Pred": 1,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "SABIC",
+        "Z_Score": 2.5071077760115856,
+        "Altman_Zone": "Gray",
+        "Altman_Pred": 1,
+        "Actual": 1,
+        "LR_Prob": 0.9723372390262965,
+        "LR_Pred": 1,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Emaar Properties",
+        "Z_Score": 2.130074797770109,
+        "Altman_Zone": "Gray",
+        "Altman_Pred": 1,
+        "Actual": 1,
+        "LR_Prob": 0.9990152412003155,
+        "LR_Pred": 1,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Vale SA",
+        "Z_Score": 1.2461434390768404,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 1,
+        "LR_Prob": 0.940184717619478,
+        "LR_Pred": 1,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Teva Pharmaceutical",
+        "Z_Score": 0.36411405826282717,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 1,
+        "LR_Prob": 0.8132650381383242,
+        "LR_Pred": 1,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Pier 1 Imports",
+        "Z_Score": 0.17639295774647912,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 0,
+        "LR_Prob": 0.1903051802499951,
+        "LR_Pred": 0,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Dean Foods",
+        "Z_Score": 1.6521572972972973,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 0,
+        "LR_Prob": 0.2240862954827834,
+        "LR_Pred": 0,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "JCPenney",
+        "Z_Score": 0.6966102896871378,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 0,
+        "LR_Prob": 0.4014777191402665,
+        "LR_Pred": 0,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Hertz Global Holdings",
+        "Z_Score": 0.3000800232045481,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 1,
+        "LR_Prob": 0.8825585091274445,
+        "LR_Pred": 1,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Chesapeake Energy",
+        "Z_Score": 0.14999853157649085,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 1,
+        "LR_Prob": 0.8195734263417982,
+        "LR_Pred": 1,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Whiting Petroleum",
+        "Z_Score": 0.6182136032388664,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 1,
+        "LR_Prob": 0.9290177466041354,
+        "LR_Pred": 1,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Sears Holdings",
+        "Z_Score": -2.201588524590164,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 0,
+        "LR_Prob": 0.1324528075957918,
+        "LR_Pred": 0,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Toys R Us (liquidated)",
+        "Z_Score": 0.2667400000000001,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 0,
+        "LR_Prob": 0.5119250132743466,
+        "LR_Pred": 1,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Claire's Stores",
+        "Z_Score": -0.3543999999999998,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 1,
+        "LR_Prob": 0.6102650263562811,
+        "LR_Pred": 1,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Frontier Communications",
+        "Z_Score": 0.49478000000000005,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 1,
+        "LR_Prob": 0.8105260522908543,
+        "LR_Pred": 1,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Thomas Cook Group",
+        "Z_Score": 0.5651033333333334,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 0,
+        "LR_Prob": 0.3807813497684482,
+        "LR_Pred": 0,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Carillion PLC",
+        "Z_Score": 0.47101789473684197,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 0,
+        "LR_Prob": 0.4396561061339935,
+        "LR_Pred": 0,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Debenhams PLC",
+        "Z_Score": 0.8304542857142857,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 0,
+        "LR_Prob": 0.6128190807735165,
+        "LR_Pred": 1,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Flybe Group",
+        "Z_Score": 0.33599999999999985,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 0,
+        "LR_Prob": 0.2146404562913384,
+        "LR_Pred": 0,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Neiman Marcus",
+        "Z_Score": -0.03263999999999989,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 1,
+        "LR_Prob": 0.6160770536449666,
+        "LR_Pred": 1,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "LATAM Airlines",
+        "Z_Score": 0.6822321804511278,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 1,
+        "LR_Prob": 0.8934070526118446,
+        "LR_Pred": 1,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Avianca Holdings",
+        "Z_Score": 0.5518941176470589,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 1,
+        "LR_Prob": 0.8706138992966053,
+        "LR_Pred": 1,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Bon-Ton Stores",
+        "Z_Score": 0.6505858823529412,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 0,
+        "LR_Prob": 0.2708014857390901,
+        "LR_Pred": 0,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Garrett Motion",
+        "Z_Score": 0.6637285714285714,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 1,
+        "LR_Prob": 0.70985364100178,
+        "LR_Pred": 1,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "GNC Holdings",
+        "Z_Score": 0.2671742857142858,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 0,
+        "LR_Prob": 0.6317122086834176,
+        "LR_Pred": 1,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Ascena Retail Group",
+        "Z_Score": 0.14043142857142854,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 0,
+        "LR_Prob": 0.3590251952929606,
+        "LR_Pred": 0,
+        "Altman_Pred_Conservative": 0
+      },
+      {
+        "Company": "Nine West Holdings",
+        "Z_Score": -0.4424999999999999,
+        "Altman_Zone": "Distress",
+        "Altman_Pred": 0,
+        "Actual": 0,
+        "LR_Prob": 0.4702703705199816,
+        "LR_Pred": 0,
+        "Altman_Pred_Conservative": 0
+      }
+    ],
+    "altman_accuracy": 0.5116279069767442,
+    "altman_accuracy_conservative": 0.3023255813953488,
+    "altman_sensitivity": 0.3,
+    "altman_specificity": 1.0,
+    "altman_precision": 1.0,
+    "lr_accuracy": 0.9302325581395349,
+    "lr_sensitivity": 1.0,
+    "lr_specificity": 0.7692307692307693,
+    "lr_precision": 0.9090909090909091,
+    "improvement": 0.41860465116279066,
+    "mcnemar_stat": 12.041666666666666,
+    "mcnemar_pval": 0.0005202443475902374,
+    "agreement_rate": 0.4418604651162791,
+    "pass": true,
+    "verdict": "PASS"
+  },
+  "test_8": {
+    "stress_table": [
+      {
+        "Scenario": "A: Revenue Shock (-30%)",
+        "Total_Downgrades": 0,
+        "Pct_Downgraded": 0.0,
+        "Prediction_Flips": 5,
+        "Stress_Accuracy": 0.813953488372093,
+        "Avg_Prob_Change": 0.06853370774745143
+      },
+      {
+        "Scenario": "B: Margin Compression (-50%)",
+        "Total_Downgrades": 1,
+        "Pct_Downgraded": 2.3255813953488373,
+        "Prediction_Flips": 1,
+        "Stress_Accuracy": 0.9069767441860465,
+        "Avg_Prob_Change": -0.01137613924029507
+      },
+      {
+        "Scenario": "C: Refinancing Crisis (Debt +50%)",
+        "Total_Downgrades": 1,
+        "Pct_Downgraded": 2.3255813953488373,
+        "Prediction_Flips": 1,
+        "Stress_Accuracy": 0.9069767441860465,
+        "Avg_Prob_Change": -0.012971955996407684
+      },
+      {
+        "Scenario": "D: Perfect Storm (All Combined)",
+        "Total_Downgrades": 0,
+        "Pct_Downgraded": 0.0,
+        "Prediction_Flips": 9,
+        "Stress_Accuracy": 0.7209302325581395,
+        "Avg_Prob_Change": 0.1245764600269963
+      }
+    ],
+    "company_stress": [
+      {
+        "Company": "Ford Motor Company",
+        "Base_Verdict": "GO",
+        "Scenarios_Flipped": 0,
+        "Robustness": "Robust"
+      },
+      {
+        "Company": "American Airlines",
+        "Base_Verdict": "GO",
+        "Scenarios_Flipped": 0,
+        "Robustness": "Robust"
+      },
+      {
+        "Company": "Delta Air Lines",
+        "Base_Verdict": "GO",
+        "Scenarios_Flipped": 0,
+        "Robustness": "Robust"
+      },
+      {
+        "Company": "Carnival Corporation",
+        "Base_Verdict": "GO",
+        "Scenarios_Flipped": 0,
+        "Robustness": "Robust"
+      },
+      {
+        "Company": "Macy's Inc",
+        "Base_Verdict": "GO",
+        "Scenarios_Flipped": 0,
+        "Robustness": "Robust"
+      },
+      {
+        "Company": "Cleveland-Cliffs",
+        "Base_Verdict": "GO",
+        "Scenarios_Flipped": 0,
+        "Robustness": "Robust"
+      },
+      {
+        "Company": "Occidental Petroleum",
+        "Base_Verdict": "GO",
+        "Scenarios_Flipped": 0,
+        "Robustness": "Robust"
+      },
+      {
+        "Company": "Schlumberger (SLB)",
+        "Base_Verdict": "GO",
+        "Scenarios_Flipped": 0,
+        "Robustness": "Robust"
+      },
+      {
+        "Company": "Halliburton",
+        "Base_Verdict": "GO",
+        "Scenarios_Flipped": 0,
+        "Robustness": "Robust"
+      },
+      {
+        "Company": "Transocean",
+        "Base_Verdict": "GO",
+        "Scenarios_Flipped": 0,
+        "Robustness": "Robust"
+      },
+      {
+        "Company": "Norwegian Cruise Line",
+        "Base_Verdict": "GO",
+        "Scenarios_Flipped": 0,
+        "Robustness": "Robust"
+      },
+      {
+        "Company": "Under Armour",
+        "Base_Verdict": "GO",
+        "Scenarios_Flipped": 0,
+        "Robustness": "Robust"
+      },
+      {
+        "Company": "Kohl's Corporation",
+        "Base_Verdict": "GO",
+        "Scenarios_Flipped": 0,
+        "Robustness": "Robust"
+      },
+      {
+        "Company": "Rolls-Royce Holdings",
+        "Base_Verdict": "GO",
+        "Scenarios_Flipped": 0,
+        "Robustness": "Robust"
+      },
+      {
+        "Company": "Tesco PLC",
+        "Base_Verdict": "CONDITIONAL",
+        "Scenarios_Flipped": 4,
+        "Robustness": "Fragile"
+      },
+      {
+        "Company": "Devon Energy",
+        "Base_Verdict": "GO",
+        "Scenarios_Flipped": 0,
+        "Robustness": "Robust"
+      },
+      {
+        "Company": "Bank Muscat (Oman)",
+        "Base_Verdict": "GO",
+        "Scenarios_Flipped": 0,
+        "Robustness": "Robust"
+      },
+      {
+        "Company": "SABIC",
+        "Base_Verdict": "GO",
+        "Scenarios_Flipped": 0,
+        "Robustness": "Robust"
+      },
+      {
+        "Company": "Emaar Properties",
+        "Base_Verdict": "GO",
+        "Scenarios_Flipped": 0,
+        "Robustness": "Robust"
+      },
+      {
+        "Company": "Vale SA",
+        "Base_Verdict": "GO",
+        "Scenarios_Flipped": 0,
+        "Robustness": "Robust"
+      },
+      {
+        "Company": "Teva Pharmaceutical",
+        "Base_Verdict": "GO",
+        "Scenarios_Flipped": 0,
+        "Robustness": "Robust"
+      },
+      {
+        "Company": "Pier 1 Imports",
+        "Base_Verdict": "NO-GO",
+        "Scenarios_Flipped": 1,
+        "Robustness": "Moderate"
+      },
+      {
+        "Company": "Dean Foods",
+        "Base_Verdict": "NO-GO",
+        "Scenarios_Flipped": 1,
+        "Robustness": "Moderate"
+      },
+      {
+        "Company": "JCPenney",
+        "Base_Verdict": "NO-GO",
+        "Scenarios_Flipped": 2,
+        "Robustness": "Moderate"
+      },
+      {
+        "Company": "Hertz Global Holdings",
+        "Base_Verdict": "GO",
+        "Scenarios_Flipped": 0,
+        "Robustness": "Robust"
+      },
+      {
+        "Company": "Chesapeake Energy",
+        "Base_Verdict": "GO",
+        "Scenarios_Flipped": 0,
+        "Robustness": "Robust"
+      },
+      {
+        "Company": "Whiting Petroleum",
+        "Base_Verdict": "GO",
+        "Scenarios_Flipped": 0,
+        "Robustness": "Robust"
+      },
+      {
+        "Company": "Sears Holdings",
+        "Base_Verdict": "NO-GO",
+        "Scenarios_Flipped": 0,
+        "Robustness": "Robust"
+      },
+      {
+        "Company": "Toys R Us (liquidated)",
+        "Base_Verdict": "CONDITIONAL",
+        "Scenarios_Flipped": 1,
+        "Robustness": "Moderate"
+      },
+      {
+        "Company": "Claire's Stores",
+        "Base_Verdict": "CONDITIONAL",
+        "Scenarios_Flipped": 2,
+        "Robustness": "Moderate"
+      },
+      {
+        "Company": "Frontier Communications",
+        "Base_Verdict": "GO",
+        "Scenarios_Flipped": 0,
+        "Robustness": "Robust"
+      },
+      {
+        "Company": "Thomas Cook Group",
+        "Base_Verdict": "NO-GO",
+        "Scenarios_Flipped": 2,
+        "Robustness": "Moderate"
+      },
+      {
+        "Company": "Carillion PLC",
+        "Base_Verdict": "NO-GO",
+        "Scenarios_Flipped": 2,
+        "Robustness": "Moderate"
+      },
+      {
+        "Company": "Debenhams PLC",
+        "Base_Verdict": "CONDITIONAL",
+        "Scenarios_Flipped": 2,
+        "Robustness": "Moderate"
+      },
+      {
+        "Company": "Flybe Group",
+        "Base_Verdict": "NO-GO",
+        "Scenarios_Flipped": 1,
+        "Robustness": "Moderate"
+      },
+      {
+        "Company": "Neiman Marcus",
+        "Base_Verdict": "CONDITIONAL",
+        "Scenarios_Flipped": 2,
+        "Robustness": "Moderate"
+      },
+      {
+        "Company": "LATAM Airlines",
+        "Base_Verdict": "GO",
+        "Scenarios_Flipped": 0,
+        "Robustness": "Robust"
+      },
+      {
+        "Company": "Avianca Holdings",
+        "Base_Verdict": "GO",
+        "Scenarios_Flipped": 0,
+        "Robustness": "Robust"
+      },
+      {
+        "Company": "Bon-Ton Stores",
+        "Base_Verdict": "NO-GO",
+        "Scenarios_Flipped": 1,
+        "Robustness": "Moderate"
+      },
+      {
+        "Company": "Garrett Motion",
+        "Base_Verdict": "GO",
+        "Scenarios_Flipped": 0,
+        "Robustness": "Robust"
+      },
+      {
+        "Company": "GNC Holdings",
+        "Base_Verdict": "CONDITIONAL",
+        "Scenarios_Flipped": 2,
+        "Robustness": "Moderate"
+      },
+      {
+        "Company": "Ascena Retail Group",
+        "Base_Verdict": "NO-GO",
+        "Scenarios_Flipped": 2,
+        "Robustness": "Moderate"
+      },
+      {
+        "Company": "Nine West Holdings",
+        "Base_Verdict": "NO-GO",
+        "Scenarios_Flipped": 2,
+        "Robustness": "Moderate"
+      }
+    ],
+    "scenario_d_flip_pct": 0.0,
+    "robust_companies": 28,
+    "fragile_companies": 1,
+    "pass": true,
+    "verdict": "PASS"
+  },
+  "test_9": {
+    "missing_table": [
+      {
+        "Scenario": "A: Missing V5",
+        "N_Missing": 1,
+        "Imputation": "Mean",
+        "Accuracy": 0.9069767441860465,
+        "Accuracy_Drop": 0.023255813953488413,
+        "MAE_Probability": 0.020496483625092807,
+        "Verdict_Changes": 4,
+        "Verdict_Change_Pct": 9.30232558139535
+      },
+      {
+        "Scenario": "A: Missing V5",
+        "N_Missing": 1,
+        "Imputation": "Median",
+        "Accuracy": 0.8837209302325582,
+        "Accuracy_Drop": 0.046511627906976716,
+        "MAE_Probability": 0.017643607107625334,
+        "Verdict_Changes": 3,
+        "Verdict_Change_Pct": 6.976744186046512
+      },
+      {
+        "Scenario": "A: Missing V5",
+        "N_Missing": 1,
+        "Imputation": "Conservative (0)",
+        "Accuracy": 0.9302325581395349,
+        "Accuracy_Drop": 0.0,
+        "MAE_Probability": 0.02917567369349636,
+        "Verdict_Changes": 2,
+        "Verdict_Change_Pct": 4.651162790697675
+      },
+      {
+        "Scenario": "B: Missing V2",
+        "N_Missing": 1,
+        "Imputation": "Mean",
+        "Accuracy": 0.813953488372093,
+        "Accuracy_Drop": 0.11627906976744184,
+        "MAE_Probability": 0.0874853949168226,
+        "Verdict_Changes": 10,
+        "Verdict_Change_Pct": 23.25581395348837
+      },
+      {
+        "Scenario": "B: Missing V2",
+        "N_Missing": 1,
+        "Imputation": "Median",
+        "Accuracy": 0.813953488372093,
+        "Accuracy_Drop": 0.11627906976744184,
+        "MAE_Probability": 0.08701738936198733,
+        "Verdict_Changes": 10,
+        "Verdict_Change_Pct": 23.25581395348837
+      },
+      {
+        "Scenario": "B: Missing V2",
+        "N_Missing": 1,
+        "Imputation": "Conservative (0)",
+        "Accuracy": 0.7906976744186046,
+        "Accuracy_Drop": 0.13953488372093026,
+        "MAE_Probability": 0.10271258941805453,
+        "Verdict_Changes": 12,
+        "Verdict_Change_Pct": 27.906976744186046
+      },
+      {
+        "Scenario": "C: Missing V3",
+        "N_Missing": 1,
+        "Imputation": "Mean",
+        "Accuracy": 0.9069767441860465,
+        "Accuracy_Drop": 0.023255813953488413,
+        "MAE_Probability": 0.022413654841921822,
+        "Verdict_Changes": 2,
+        "Verdict_Change_Pct": 4.651162790697675
+      },
+      {
+        "Scenario": "C: Missing V3",
+        "N_Missing": 1,
+        "Imputation": "Median",
+        "Accuracy": 0.9069767441860465,
+        "Accuracy_Drop": 0.023255813953488413,
+        "MAE_Probability": 0.017044051509945587,
+        "Verdict_Changes": 1,
+        "Verdict_Change_Pct": 2.3255813953488373
+      },
+      {
+        "Scenario": "C: Missing V3",
+        "N_Missing": 1,
+        "Imputation": "Conservative (0)",
+        "Accuracy": 0.9069767441860465,
+        "Accuracy_Drop": 0.023255813953488413,
+        "MAE_Probability": 0.02029567091862662,
+        "Verdict_Changes": 2,
+        "Verdict_Change_Pct": 4.651162790697675
+      },
+      {
+        "Scenario": "D: Missing V5+V3",
+        "N_Missing": 2,
+        "Imputation": "Mean",
+        "Accuracy": 0.8604651162790697,
+        "Accuracy_Drop": 0.06976744186046513,
+        "MAE_Probability": 0.03735975479121158,
+        "Verdict_Changes": 7,
+        "Verdict_Change_Pct": 16.27906976744186
+      },
+      {
+        "Scenario": "D: Missing V5+V3",
+        "N_Missing": 2,
+        "Imputation": "Median",
+        "Accuracy": 0.8604651162790697,
+        "Accuracy_Drop": 0.06976744186046513,
+        "MAE_Probability": 0.029897172647372936,
+        "Verdict_Changes": 4,
+        "Verdict_Change_Pct": 9.30232558139535
+      },
+      {
+        "Scenario": "D: Missing V5+V3",
+        "N_Missing": 2,
+        "Imputation": "Conservative (0)",
+        "Accuracy": 0.9302325581395349,
+        "Accuracy_Drop": 0.0,
+        "MAE_Probability": 0.047107236326420686,
+        "Verdict_Changes": 3,
+        "Verdict_Change_Pct": 6.976744186046512
+      },
+      {
+        "Scenario": "E: Missing V2+V4",
+        "N_Missing": 2,
+        "Imputation": "Mean",
+        "Accuracy": 0.7674418604651163,
+        "Accuracy_Drop": 0.16279069767441856,
+        "MAE_Probability": 0.10282690794276238,
+        "Verdict_Changes": 14,
+        "Verdict_Change_Pct": 32.55813953488372
+      },
+      {
+        "Scenario": "E: Missing V2+V4",
+        "N_Missing": 2,
+        "Imputation": "Median",
+        "Accuracy": 0.7674418604651163,
+        "Accuracy_Drop": 0.16279069767441856,
+        "MAE_Probability": 0.10034273362000014,
+        "Verdict_Changes": 12,
+        "Verdict_Change_Pct": 27.906976744186046
+      },
+      {
+        "Scenario": "E: Missing V2+V4",
+        "N_Missing": 2,
+        "Imputation": "Conservative (0)",
+        "Accuracy": 0.7674418604651163,
+        "Accuracy_Drop": 0.16279069767441856,
+        "MAE_Probability": 0.11048471816794997,
+        "Verdict_Changes": 13,
+        "Verdict_Change_Pct": 30.23255813953488
+      },
+      {
+        "Scenario": "F: Missing V1+V2+V5",
+        "N_Missing": 3,
+        "Imputation": "Mean",
+        "Accuracy": 0.7674418604651163,
+        "Accuracy_Drop": 0.16279069767441856,
+        "MAE_Probability": 0.10462657387972428,
+        "Verdict_Changes": 12,
+        "Verdict_Change_Pct": 27.906976744186046
+      },
+      {
+        "Scenario": "F: Missing V1+V2+V5",
+        "N_Missing": 3,
+        "Imputation": "Median",
+        "Accuracy": 0.7674418604651163,
+        "Accuracy_Drop": 0.16279069767441856,
+        "MAE_Probability": 0.10350286900965337,
+        "Verdict_Changes": 14,
+        "Verdict_Change_Pct": 32.55813953488372
+      },
+      {
+        "Scenario": "F: Missing V1+V2+V5",
+        "N_Missing": 3,
+        "Imputation": "Conservative (0)",
+        "Accuracy": 0.7674418604651163,
+        "Accuracy_Drop": 0.16279069767441856,
+        "MAE_Probability": 0.10687445283804894,
+        "Verdict_Changes": 14,
+        "Verdict_Change_Pct": 32.55813953488372
+      }
+    ],
+    "base_accuracy": 0.9302325581395349,
+    "v5_verdict_stable": true,
+    "pass": true,
+    "verdict": "PASS"
+  },
+  "test_10": {
+    "accuracy": 0.9361702127659575,
+    "ci_95": [
+      0.828371220656221,
+      0.9780550129792271
+    ],
+    "sensitivity": 1.0,
+    "specificity": 0.7692307692307693,
+    "precision": 0.918918918918919,
+    "f1_score": 0.9577464788732395,
+    "auc_roc": 0.9886877828054299,
+    "confusion_matrix": {
+      "TP": 34,
+      "TN": 10,
+      "FP": 3,
+      "FN": 0
+    },
+    "binom_test_vs_50": 1.2323653209023178e-10,
+    "binom_test_vs_85": 0.06360536463191364,
+    "company_detail": [
+      {
+        "Company": "Ford Motor Company",
+        "Sector": "Automotive",
+        "LR_Probability": 0.8505667317548072,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "GO",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Survived, pivoted to EVs, profitable by 2021"
+      },
+      {
+        "Company": "American Airlines",
+        "Sector": "Airlines",
+        "LR_Probability": 0.7505357085488147,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "GO",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Survived COVID via govt bailout, resumed operations"
+      },
+      {
+        "Company": "Delta Air Lines",
+        "Sector": "Airlines",
+        "LR_Probability": 0.9127072849922203,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "GO",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Survived COVID, returned to profitability 2022"
+      },
+      {
+        "Company": "Carnival Corporation",
+        "Sector": "Travel",
+        "LR_Probability": 0.930192870259133,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "GO",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Survived COVID, resumed cruises, deleveraging"
+      },
+      {
+        "Company": "Macy's Inc",
+        "Sector": "Retail",
+        "LR_Probability": 0.820626243675719,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "GO",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Survived retail apocalypse, still operating 2025"
+      },
+      {
+        "Company": "Gap Inc",
+        "Sector": "Retail",
+        "LR_Probability": 0.9272003825201024,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "GO",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Restructured, still operating 2025"
+      },
+      {
+        "Company": "Cleveland-Cliffs",
+        "Sector": "Mining",
+        "LR_Probability": 0.7511136799612533,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "GO",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Transformed from iron ore to steel, acquired AK Steel"
+      },
+      {
+        "Company": "United States Steel",
+        "Sector": "Manufacturing",
+        "LR_Probability": 0.9272003825201024,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "GO",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Survived, subject of acquisition by Nippon Steel"
+      },
+      {
+        "Company": "Occidental Petroleum",
+        "Sector": "Oil & Gas",
+        "LR_Probability": 0.9789095289049603,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "GO",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Survived oil crash, Buffett invested, deleveraged"
+      },
+      {
+        "Company": "Schlumberger (SLB)",
+        "Sector": "Oil & Gas",
+        "LR_Probability": 0.9501500742276,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "GO",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Survived oil downturn, rebranded, profitable"
+      },
+      {
+        "Company": "Halliburton",
+        "Sector": "Oil & Gas",
+        "LR_Probability": 0.9413044604124772,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "GO",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Survived oil downturn, returned to profitability"
+      },
+      {
+        "Company": "Transocean",
+        "Sector": "Oil & Gas",
+        "LR_Probability": 0.8719480556570004,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "GO",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Survived near-bankruptcy, restructured debt, still operating"
+      },
+      {
+        "Company": "Norwegian Cruise Line",
+        "Sector": "Travel",
+        "LR_Probability": 0.8748931649222221,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "GO",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Survived COVID, resumed operations"
+      },
+      {
+        "Company": "Under Armour",
+        "Sector": "Retail",
+        "LR_Probability": 0.7113217702523125,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "GO",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Survived brand crisis, restructured, still operating"
+      },
+      {
+        "Company": "Kohl's Corporation",
+        "Sector": "Retail",
+        "LR_Probability": 0.797085435880375,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "GO",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Survived retail downturn, still operating 2025"
+      },
+      {
+        "Company": "Washington Prime Group",
+        "Sector": "Real Estate",
+        "LR_Probability": 0.9272003825201024,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "GO",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Filed Ch11 2021 but emerged, operations continued"
+      },
+      {
+        "Company": "Rolls-Royce Holdings",
+        "Sector": "Aerospace",
+        "LR_Probability": 0.9789820071264714,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "GO",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Major turnaround under new CEO, stock 10x by 2024"
+      },
+      {
+        "Company": "Tesco PLC",
+        "Sector": "Retail",
+        "LR_Probability": 0.537701443005752,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "CONDITIONAL",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Completed turnaround from 2014 crisis, profitable"
+      },
+      {
+        "Company": "Marathon Oil",
+        "Sector": "Oil & Gas",
+        "LR_Probability": 0.9272003825201024,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "GO",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Survived oil crash, acquired by ConocoPhillips 2024"
+      },
+      {
+        "Company": "Devon Energy",
+        "Sector": "Oil & Gas",
+        "LR_Probability": 0.9830265894143283,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "GO",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Survived oil crash, merged with WPX, highly profitable"
+      },
+      {
+        "Company": "Bank Muscat (Oman)",
+        "Sector": "Banking",
+        "LR_Probability": 0.9479171824099536,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "GO",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Survived Oman economic downturn, still largest bank"
+      },
+      {
+        "Company": "SABIC",
+        "Sector": "Chemicals",
+        "LR_Probability": 0.9723372390262965,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "GO",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Survived petrochemical downturn, acquired by Aramco"
+      },
+      {
+        "Company": "Emaar Properties",
+        "Sector": "Real Estate",
+        "LR_Probability": 0.9990152412003155,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "GO",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Survived Dubai property downturn, record profits 2024"
+      },
+      {
+        "Company": "Vale SA",
+        "Sector": "Mining",
+        "LR_Probability": 0.940184717619478,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "GO",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Survived Brumadinho disaster, recovered by 2021"
+      },
+      {
+        "Company": "Teva Pharmaceutical",
+        "Sector": "Pharmaceuticals",
+        "LR_Probability": 0.8132650381383242,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "GO",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Survived opioid crisis/debt crisis, still operating, deleveraging"
+      },
+      {
+        "Company": "Pier 1 Imports",
+        "Sector": "Retail",
+        "LR_Probability": 0.1903051802499951,
+        "LR_Prediction": "FAILED",
+        "Verdict": "NO-GO",
+        "Actual_Outcome": "FAILED",
+        "Correct": true,
+        "Outcome_Detail": "Filed Ch11 Feb 2020, fully liquidated, all stores closed"
+      },
+      {
+        "Company": "Dean Foods",
+        "Sector": "Food",
+        "LR_Probability": 0.2240862954827834,
+        "LR_Prediction": "FAILED",
+        "Verdict": "NO-GO",
+        "Actual_Outcome": "FAILED",
+        "Correct": true,
+        "Outcome_Detail": "Filed Ch11 Nov 2019, assets sold to DFA, liquidated"
+      },
+      {
+        "Company": "JCPenney",
+        "Sector": "Retail",
+        "LR_Probability": 0.4014777191402665,
+        "LR_Prediction": "FAILED",
+        "Verdict": "NO-GO",
+        "Actual_Outcome": "FAILED",
+        "Correct": true,
+        "Outcome_Detail": "Filed Ch11 May 2020, stores sold to Simon/Brookfield, brand diminished"
+      },
+      {
+        "Company": "Hertz Global Holdings",
+        "Sector": "Travel",
+        "LR_Probability": 0.8825585091274445,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "GO",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Filed Ch11 May 2020 but emerged 2021, business continued, rescue fund profit"
+      },
+      {
+        "Company": "Chesapeake Energy",
+        "Sector": "Oil & Gas",
+        "LR_Probability": 0.8195734263417982,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "GO",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Filed Ch11 June 2020, emerged Feb 2021, operations continued"
+      },
+      {
+        "Company": "Whiting Petroleum",
+        "Sector": "Oil & Gas",
+        "LR_Probability": 0.9290177466041354,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "GO",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Filed Ch11 April 2020, emerged Sept 2020, merged with Oasis 2022"
+      },
+      {
+        "Company": "Sears Holdings",
+        "Sector": "Retail",
+        "LR_Probability": 0.1324528075957918,
+        "LR_Prediction": "FAILED",
+        "Verdict": "NO-GO",
+        "Actual_Outcome": "FAILED",
+        "Correct": true,
+        "Outcome_Detail": "Filed Ch11 Oct 2018, most stores closed, brand dead"
+      },
+      {
+        "Company": "Toys R Us (liquidated)",
+        "Sector": "Retail",
+        "LR_Probability": 0.5119250132743466,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "CONDITIONAL",
+        "Actual_Outcome": "FAILED",
+        "Correct": false,
+        "Outcome_Detail": "Filed Ch11 Sept 2017, fully liquidated 2018, all stores closed"
+      },
+      {
+        "Company": "Claire's Stores",
+        "Sector": "Retail",
+        "LR_Probability": 0.6102650263562811,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "CONDITIONAL",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Filed Ch11 March 2018, emerged Oct 2018, still operating"
+      },
+      {
+        "Company": "Frontier Communications",
+        "Sector": "Telecommunications",
+        "LR_Probability": 0.8105260522908543,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "GO",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Filed Ch11 April 2020, emerged April 2021, acquired by Verizon 2025"
+      },
+      {
+        "Company": "Thomas Cook Group",
+        "Sector": "Travel",
+        "LR_Probability": 0.3807813497684482,
+        "LR_Prediction": "FAILED",
+        "Verdict": "NO-GO",
+        "Actual_Outcome": "FAILED",
+        "Correct": true,
+        "Outcome_Detail": "Collapsed Sept 2019, fully liquidated, 21000 jobs lost"
+      },
+      {
+        "Company": "Carillion PLC",
+        "Sector": "Construction",
+        "LR_Probability": 0.4396561061339935,
+        "LR_Prediction": "FAILED",
+        "Verdict": "NO-GO",
+        "Actual_Outcome": "FAILED",
+        "Correct": true,
+        "Outcome_Detail": "Collapsed Jan 2018, fully liquidated, 43000 jobs lost"
+      },
+      {
+        "Company": "Debenhams PLC",
+        "Sector": "Retail",
+        "LR_Probability": 0.6128190807735165,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "CONDITIONAL",
+        "Actual_Outcome": "FAILED",
+        "Correct": false,
+        "Outcome_Detail": "Filed administration 2019, liquidated 2021, all stores closed"
+      },
+      {
+        "Company": "Flybe Group",
+        "Sector": "Airlines",
+        "LR_Probability": 0.2146404562913384,
+        "LR_Prediction": "FAILED",
+        "Verdict": "NO-GO",
+        "Actual_Outcome": "FAILED",
+        "Correct": true,
+        "Outcome_Detail": "Collapsed March 2020, fully liquidated"
+      },
+      {
+        "Company": "Neiman Marcus",
+        "Sector": "Retail",
+        "LR_Probability": 0.6160770536449666,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "CONDITIONAL",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Filed Ch11 May 2020, emerged Sept 2020, still operating"
+      },
+      {
+        "Company": "LATAM Airlines",
+        "Sector": "Airlines",
+        "LR_Probability": 0.8934070526118446,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "GO",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Filed Ch11 May 2020, emerged Nov 2022, largest LatAm airline"
+      },
+      {
+        "Company": "Avianca Holdings",
+        "Sector": "Airlines",
+        "LR_Probability": 0.8706138992966053,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "GO",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Filed Ch11 May 2020, emerged Dec 2021, still operating"
+      },
+      {
+        "Company": "Bon-Ton Stores",
+        "Sector": "Retail",
+        "LR_Probability": 0.2708014857390901,
+        "LR_Prediction": "FAILED",
+        "Verdict": "NO-GO",
+        "Actual_Outcome": "FAILED",
+        "Correct": true,
+        "Outcome_Detail": "Filed Ch11 Feb 2018, fully liquidated, all 260 stores closed"
+      },
+      {
+        "Company": "Garrett Motion",
+        "Sector": "Automotive",
+        "LR_Probability": 0.70985364100178,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "GO",
+        "Actual_Outcome": "RECOVERED",
+        "Correct": true,
+        "Outcome_Detail": "Filed Ch11 Sept 2020, emerged April 2021, still operating"
+      },
+      {
+        "Company": "GNC Holdings",
+        "Sector": "Retail",
+        "LR_Probability": 0.6317122086834176,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "CONDITIONAL",
+        "Actual_Outcome": "FAILED",
+        "Correct": false,
+        "Outcome_Detail": "Filed Ch11 June 2020, sold to Harbin Pharma, most stores closed"
+      },
+      {
+        "Company": "Ascena Retail Group",
+        "Sector": "Retail",
+        "LR_Probability": 0.3590251952929606,
+        "LR_Prediction": "FAILED",
+        "Verdict": "NO-GO",
+        "Actual_Outcome": "FAILED",
+        "Correct": true,
+        "Outcome_Detail": "Filed Ch11 July 2020, liquidated most brands"
+      },
+      {
+        "Company": "Nine West Holdings",
+        "Sector": "Retail",
+        "LR_Probability": 0.4702703705199816,
+        "LR_Prediction": "FAILED",
+        "Verdict": "NO-GO",
+        "Actual_Outcome": "FAILED",
+        "Correct": true,
+        "Outcome_Detail": "Filed Ch11 April 2018, liquidated, brand sold"
+      }
+    ],
+    "misclassified": [
+      {
+        "Company": "Toys R Us (liquidated)",
+        "Sector": "Retail",
+        "LR_Probability": 0.5119250132743466,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "CONDITIONAL",
+        "Actual_Outcome": "FAILED",
+        "Correct": false,
+        "Outcome_Detail": "Filed Ch11 Sept 2017, fully liquidated 2018, all stores closed"
+      },
+      {
+        "Company": "Debenhams PLC",
+        "Sector": "Retail",
+        "LR_Probability": 0.6128190807735165,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "CONDITIONAL",
+        "Actual_Outcome": "FAILED",
+        "Correct": false,
+        "Outcome_Detail": "Filed administration 2019, liquidated 2021, all stores closed"
+      },
+      {
+        "Company": "GNC Holdings",
+        "Sector": "Retail",
+        "LR_Probability": 0.6317122086834176,
+        "LR_Prediction": "RECOVERED",
+        "Verdict": "CONDITIONAL",
+        "Actual_Outcome": "FAILED",
+        "Correct": false,
+        "Outcome_Detail": "Filed Ch11 June 2020, sold to Harbin Pharma, most stores closed"
+      }
+    ],
+    "n_misclassified": 3,
+    "pass": true,
+    "verdict": "PASS"
+  },
+  "test_11": {
+    "panel_observations": 173,
+    "hazard_auc": 0.9846153846153847,
+    "mann_whitney_u": 384.0,
+    "mann_whitney_p": 1.5450554953371294e-07,
+    "mean_survival_recovered": 0.917803441374473,
+    "mean_survival_failed": 0.14667222032328098,
+    "separation": 0.771131221051192,
+    "v3_accuracy": 0.9302325581395349,
+    "v3_sensitivity": 0.9,
+    "v3_specificity": 1.0,
+    "v3_precision": 1.0,
+    "v3_confusion": {
+      "TP": 27,
+      "TN": 13,
+      "FP": 0,
+      "FN": 3
+    },
+    "hazard_model_summary": "                           Logit Regression Results                           \n==============================================================================\nDep. Variable:                      y   No. Observations:                  173\nModel:                          Logit   Df Residuals:                      164\nMethod:                           MLE   Df Model:                            8\nDate:                Fri, 17 Apr 2026   Pseudo R-squ.:                  0.6370\nTime:                        01:14:58   Log-Likelihood:                -16.751\nconverged:                       True   LL-Null:                       -46.147\nCovariance Type:            nonrobust   LLR p-value:                 8.038e-10\n==============================================================================\n                 coef    std err          z      P>|z|      [0.025      0.975]\n------------------------------------------------------------------------------\nconst         -1.9295      2.932     -0.658      0.511      -7.677       3.818\nx1            -0.2312      6.040     -0.038      0.969     -12.069      11.606\nx2             0.3298      1.872      0.176      0.860      -3.340       4.000\nx3             0.7437      6.717      0.111      0.912     -12.421      13.909\nx4            -7.1443      8.530     -0.838      0.402     -23.863       9.574\nx5           -27.7134     13.871     -1.998      0.046     -54.900      -0.526\nx6             3.8640      1.892      2.042      0.041       0.155       7.573\nx7            -0.8840      1.199     -0.737      0.461      -3.234       1.466\nx8             3.8256      1.752      2.183      0.029       0.391       7.260\n==============================================================================\n\nPossibly complete quasi-separation: A fraction 0.52 of observations can be\nperfectly predicted. This might indicate that there is complete\nquasi-separation. In this case some parameters will not be identified.",
+    "survival_curves": {
+      "Ford Motor Company": [
+        1.0,
+        0.994270040232689,
+        0.9024247405431058,
+        0.8683892898952399,
+        0.8675209006053447,
+        0.8666533797047393
+      ],
+      "American Airlines": [
+        1.0,
+        0.999,
+        0.9968548945829145,
+        0.9958580396883316,
+        0.9948621816486433,
+        0.9938673194669946
+      ],
+      "Delta Air Lines": [
+        1.0,
+        0.999,
+        0.998001,
+        0.997002999,
+        0.996005996001,
+        0.995009990004999
+      ],
+      "Carnival Corporation": [
+        1.0,
+        0.999,
+        0.998001,
+        0.997002999,
+        0.996005996001,
+        0.995009990004999
+      ],
+      "Macy's Inc": [
+        1.0,
+        0.999,
+        0.9947542796140623,
+        0.993265763998585,
+        0.9922724982345864,
+        0.9912802257363518
+      ],
+      "Cleveland-Cliffs": [
+        1.0,
+        0.999,
+        0.9976954446122522,
+        0.99669774916764,
+        0.9957010514184723,
+        0.9947053503670539
+      ],
+      "Occidental Petroleum": [
+        1.0,
+        0.999,
+        0.998001,
+        0.997002999,
+        0.996005996001,
+        0.995009990004999
+      ],
+      "Schlumberger (SLB)": [
+        1.0,
+        0.999,
+        0.9965091357245456,
+        0.995512626588821,
+        0.9945171139622322,
+        0.9935225968482699
+      ],
+      "Halliburton": [
+        1.0,
+        0.999,
+        0.9937553597808864,
+        0.991905901655193,
+        0.9909139957535378,
+        0.9899230817577842
+      ],
+      "Transocean": [
+        1.0,
+        0.999,
+        0.998001,
+        0.997002999,
+        0.996005996001,
+        0.995009990004999
+      ],
+      "Norwegian Cruise Line": [
+        1.0,
+        0.999,
+        0.998001,
+        0.997002999,
+        0.996005996001,
+        0.995009990004999
+      ],
+      "Under Armour": [
+        1.0,
+        0.9873965177205377,
+        0.8021972004937006,
+        0.735251058496989,
+        0.734515807438492,
+        0.7337812916310535
+      ],
+      "Kohl's Corporation": [
+        1.0,
+        0.999,
+        0.998001,
+        0.997002999,
+        0.996005996001,
+        0.995009990004999
+      ],
+      "Rolls-Royce Holdings": [
+        1.0,
+        0.999,
+        0.996973392703942,
+        0.995976419311238,
+        0.9949804428919268,
+        0.9939854624490349
+      ],
+      "Tesco PLC": [
+        1.0,
+        0.999,
+        0.998001,
+        0.997002999,
+        0.996005996001,
+        0.995009990004999
+      ],
+      "Devon Energy": [
+        1.0,
+        0.999,
+        0.998001,
+        0.997002999,
+        0.996005996001,
+        0.995009990004999
+      ],
+      "Bank Muscat (Oman)": [
+        1.0,
+        0.9983543613899306,
+        0.9711263279120831,
+        0.9611312444851052,
+        0.9601701132406201,
+        0.9592099431273795
+      ],
+      "SABIC": [
+        1.0,
+        0.999,
+        0.998001,
+        0.997002999,
+        0.996005996001,
+        0.995009990004999
+      ],
+      "Emaar Properties": [
+        1.0,
+        0.999,
+        0.998001,
+        0.997002999,
+        0.996005996001,
+        0.995009990004999
+      ],
+      "Vale SA": [
+        1.0,
+        0.999,
+        0.998001,
+        0.997002999,
+        0.996005996001,
+        0.995009990004999
+      ],
+      "Teva Pharmaceutical": [
+        1.0,
+        0.9801120477839746,
+        0.7142914954336217,
+        0.6217567742802325,
+        0.6209508672723579,
+        0.6203299164050856
+      ],
+      "Pier 1 Imports": [
+        1.0,
+        0.14428347442114087,
+        0.00721417372105705,
+        0.0003607086860528528,
+        0.00027970512070476296,
+        0.0002498155807174242
+      ],
+      "Dean Foods": [
+        1.0,
+        0.6438925356542685,
+        0.06588848483118742,
+        0.014248489853935512,
+        0.013797983069716857,
+        0.01361433842755612
+      ],
+      "JCPenney": [
+        1.0,
+        0.9704964457596554,
+        0.6034787367210731,
+        0.48229735054288214,
+        0.48120811361891574,
+        0.48072690550529684
+      ],
+      "Hertz Global Holdings": [
+        1.0,
+        0.999,
+        0.998001,
+        0.997002999,
+        0.996005996001,
+        0.995009990004999
+      ],
+      "Chesapeake Energy": [
+        1.0,
+        0.999,
+        0.998001,
+        0.997002999,
+        0.996005996001,
+        0.995009990004999
+      ],
+      "Whiting Petroleum": [
+        1.0,
+        0.999,
+        0.998001,
+        0.997002999,
+        0.996005996001,
+        0.995009990004999
+      ],
+      "Sears Holdings": [
+        1.0,
+        0.8472286612700655,
+        0.20521576343892636,
+        0.089516322544604,
+        0.08848600290279957,
+        0.08806237574717783
+      ],
+      "Toys R Us (liquidated)": [
+        1.0,
+        0.9230109289512332,
+        0.35771139769391636,
+        0.21641537226402763,
+        0.21514990367605652,
+        0.21462835685030746
+      ],
+      "Claire's Stores": [
+        1.0,
+        0.9672357540613871,
+        0.5930778726227471,
+        0.47211796950889034,
+        0.4710492166490113,
+        0.47057816743236225
+      ],
+      "Frontier Communications": [
+        1.0,
+        0.999,
+        0.9959880869344245,
+        0.9949422117888977,
+        0.9939472695771089,
+        0.9929533223075317
+      ],
+      "Thomas Cook Group": [
+        1.0,
+        0.815947133710764,
+        0.1684418823743395,
+        0.06508217606001837,
+        0.06416416039747569,
+        0.06378712114178726
+      ],
+      "Carillion PLC": [
+        1.0,
+        0.18320757348291994,
+        0.009160378674146005,
+        0.00045801893370730064,
+        0.0003484674096334737,
+        0.00030841017641263456
+      ],
+      "Debenhams PLC": [
+        1.0,
+        0.9884181959565065,
+        0.7888474948582689,
+        0.7048889215320386,
+        0.7041333637867617,
+        0.703429230422975
+      ],
+      "Flybe Group": [
+        1.0,
+        0.5837264555716016,
+        0.0483062971887196,
+        0.008658327205921254,
+        0.008315296440785633,
+        0.008175951995552185
+      ],
+      "Neiman Marcus": [
+        1.0,
+        0.9592032279492291,
+        0.5336180777291607,
+        0.4023923954500965,
+        0.40122573793313165,
+        0.4007492625434364
+      ],
+      "LATAM Airlines": [
+        1.0,
+        0.999,
+        0.998001,
+        0.997002999,
+        0.996005996001,
+        0.995009990004999
+      ],
+      "Avianca Holdings": [
+        1.0,
+        0.999,
+        0.998001,
+        0.997002999,
+        0.996005996001,
+        0.995009990004999
+      ],
+      "Bon-Ton Stores": [
+        1.0,
+        0.5952994312547919,
+        0.042888449461364504,
+        0.006784748751894658,
+        0.006474375553317214,
+        0.006348638603070795
+      ],
+      "Garrett Motion": [
+        1.0,
+        0.979538524811911,
+        0.7080479040056294,
+        0.6138382729847375,
+        0.6130170984756126,
+        0.612404081377137
+      ],
+      "GNC Holdings": [
+        1.0,
+        0.9341214349533992,
+        0.402810158130341,
+        0.26072953734067783,
+        0.25945581024790837,
+        0.25893064928179665
+      ],
+      "Ascena Retail Group": [
+        1.0,
+        0.7729574899958662,
+        0.1309860820541372,
+        0.043303753934648165,
+        0.04252798969839679,
+        0.042209888651039744
+      ],
+      "Nine West Holdings": [
+        1.0,
+        0.7454333904904826,
+        0.09978790634529462,
+        0.027167354298793085,
+        0.026528512286799234,
+        0.02626718181896287
+      ]
+    },
+    "pass": true,
+    "verdict": "PASS -- Hazard AUC=0.985"
+  },
+  "test_12": {
+    "calibration_table": [
+      {
+        "Bin": 1,
+        "N": 9,
+        "Pred_Surv": 0.027669302460252985,
+        "Actual_Surv": 0.0,
+        "Cal_Error": 0.027669302460252985
+      },
+      {
+        "Bin": 2,
+        "N": 8,
+        "Pred_Surv": 0.47022207122729964,
+        "Actual_Surv": 0.5,
+        "Cal_Error": 0.029777928772700357
+      },
+      {
+        "Bin": 3,
+        "N": 9,
+        "Pred_Surv": 0.9461307358921266,
+        "Actual_Surv": 1.0,
+        "Cal_Error": 0.053869264107873405
+      },
+      {
+        "Bin": 4,
+        "N": 17,
+        "Pred_Surv": 0.9949920700262964,
+        "Actual_Surv": 1.0,
+        "Cal_Error": 0.005007929973703584
+      }
+    ],
+    "mean_calibration_error": 0.029081106328632582,
+    "hosmer_lemeshow_chi2": 0.8825770859883324,
+    "hosmer_lemeshow_pval": 0.6432070868958936,
+    "loo_accuracy": 0.9069767441860465,
+    "loo_auc": 0.9794871794871794,
+    "surv_correlation": 0.8967954195659896,
+    "brier_score": 0.04368524149869306,
+    "brier_baseline": 0.21092482422931313,
+    "brier_skill": 0.7928871499202987,
+    "pass": true,
+    "verdict": "PASS -- LOO AUC=0.979, Cal=0.029"
+  }
+}
