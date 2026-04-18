@@ -1,0 +1,48 @@
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: srff_rvs
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./backend/migrations:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  python-rvs:
+    build:
+      context: .
+      dockerfile: backend/python_rvs_service/Dockerfile
+    ports:
+      - "8001:8001"
+    healthcheck:
+      test: ["CMD-SHELL", "python -c 'import urllib.request,sys; urllib.request.urlopen(\"http://localhost:8001/health\",timeout=2); sys.exit(0)' || exit 1"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    environment:
+      DATABASE_URL: postgres://postgres:postgres@postgres:5432/srff_rvs?sslmode=disable
+      PYTHON_RVS_URL: http://python-rvs:8001
+      PORT: "8080"
+    ports:
+      - "8080:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      python-rvs:
+        condition: service_started
+
+volumes:
+  postgres_data:
