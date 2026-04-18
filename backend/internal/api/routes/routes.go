@@ -11,6 +11,7 @@ import (
 // Handlers bundles every HTTP handler set wired by the router.
 type Handlers struct {
 	Assessment *handlers.AssessmentHandler
+	PDF        *handlers.PDFHandler
 	// Auth, User, Analytics, Health handlers would live here once implemented.
 }
 
@@ -57,6 +58,9 @@ func SetupRoutes(r chi.Router, h *Handlers, auth *AuthMiddleware) {
 			r.Post("/upload", h.Assessment.HandleFileUpload)
 			r.Get("/{id}/report", h.Assessment.GenerateReport)
 			r.Post("/{id}/recalculate", h.Assessment.Recalculate)
+			if h.PDF != nil {
+				r.Get("/{id}/export-pdf", h.PDF.ExportPDF)
+			}
 		})
 	})
 

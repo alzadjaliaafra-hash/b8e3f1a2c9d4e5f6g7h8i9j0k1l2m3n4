@@ -43,10 +43,22 @@ type RVSv4Input struct {
 
 // RVSv4Output is the computational result produced by the RVS engine.
 type RVSv4Output struct {
-	FinalScore       float64            `json:"finalScore"`
-	ComponentScores  map[string]float64 `json:"componentScores,omitempty"`
-	RiskBand         string             `json:"riskBand,omitempty"`
-	Recommendations  []string           `json:"recommendations,omitempty"`
+	FinalScore          float64                         `json:"finalScore"`
+	ComponentScores     map[string]float64              `json:"componentScores,omitempty"`
+	RiskBand            string                          `json:"riskBand,omitempty"`
+	Recommendations     []string                        `json:"recommendations,omitempty"`
+	RiskRating          string                          `json:"riskRating,omitempty"`
+	SurvivalProbability []float64                       `json:"survivalProbability,omitempty"`
+	StressTestResults   map[string]StressTestScenario   `json:"stressTestResults,omitempty"`
+	Recommendation      string                          `json:"recommendation,omitempty"`
+	CalculatedAt        time.Time                       `json:"calculatedAt,omitempty"`
+}
+
+// StressTestScenario is a single modelled scenario attached to an output.
+type StressTestScenario struct {
+	Name           string  `json:"name"`
+	ViabilityScore float64 `json:"viabilityScore"`
+	Probability    float64 `json:"probability"`
 }
 
 // MurshidiAnalysisDTO is the qualitative AI analysis layered on top of the

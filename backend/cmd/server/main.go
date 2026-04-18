@@ -38,10 +38,13 @@ func main() {
 	validator := validators.NewRVSValidator(logger)
 	transformer := services.NewDataTransformer(logger)
 
+	rvsEngine := services.NewRVSEngine()
+	murshidiClient := services.NewNoopMurshidiClient()
+
 	assessmentService := services.NewAssessmentService(
 		assessmentRepo,
-		nil, // RVS engine - wire real implementation
-		nil, // Murshidi client - wire real implementation
+		rvsEngine,
+		murshidiClient,
 		db,
 		logger,
 	)
@@ -53,8 +56,13 @@ func main() {
 		logger,
 	)
 
+	logoPath := os.Getenv("IC_MEMO_LOGO_PATH")
+	pdfGenerator := services.NewPDFGenerator(logoPath)
+	pdfHandler := handlers.NewPDFHandler(assessmentService, pdfGenerator)
+
 	handlerSet := &routes.Handlers{
 		Assessment: assessmentHandler,
+		PDF:        pdfHandler,
 	}
 
 	r := chi.NewRouter()
