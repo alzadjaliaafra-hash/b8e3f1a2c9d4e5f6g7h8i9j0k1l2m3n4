@@ -1,0 +1,36 @@
+{
+  "name": "srff-i-rvs-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Angular frontend for the SRFF-I RVS assessment system.",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint"
+  },
+  "dependencies": {
+    "@angular/animations": "^17.0.0",
+    "@angular/common": "^17.0.0",
+    "@angular/compiler": "^17.0.0",
+    "@angular/core": "^17.0.0",
+    "@angular/forms": "^17.0.0",
+    "@angular/platform-browser": "^17.0.0",
+    "@angular/platform-browser-dynamic": "^17.0.0",
+    "@angular/router": "^17.0.0",
+    "@ngrx/effects": "^17.0.0",
+    "@ngrx/store": "^17.0.0",
+    "papaparse": "^5.4.1",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.6.0",
+    "xlsx": "^0.18.5",
+    "zone.js": "~0.14.0"
+  },
+  "devDependencies": {
+    "@angular/cli": "^17.0.0",
+    "@angular/compiler-cli": "^17.0.0",
+    "@types/papaparse": "^5.3.0",
+    "typescript": "~5.2.0"
+  }
+}
