@@ -9,6 +9,7 @@ import (
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
+	"github.com/go-chi/cors"
 	"github.com/jackc/pgx/v5/pgxpool"
 
 	"github.com/alzadjaliaafra-hash/srff-i-rvs-model/backend/internal/api/handlers"
@@ -71,6 +72,14 @@ func main() {
 	r.Use(middleware.Logger)
 	r.Use(middleware.Recoverer)
 	r.Use(middleware.Timeout(60 * time.Second))
+	r.Use(cors.Handler(cors.Options{
+		AllowedOrigins:   []string{"http://localhost:4200"},
+		AllowedMethods:   []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"},
+		AllowedHeaders:   []string{"Accept", "Authorization", "Content-Type", "X-API-Key"},
+		ExposedHeaders:   []string{"Link", "Content-Disposition"},
+		AllowCredentials: true,
+		MaxAge:           300,
+	}))
 
 	routes.SetupRoutes(r, handlerSet, nil)
 
