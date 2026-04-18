@@ -1,23 +1,84 @@
 package services
 
 import (
+	"bytes"
+	"encoding/json"
+	"fmt"
+	"io"
+	"net/http"
+	"os"
 	"time"
 
 	"github.com/alzadjaliaafra-hash/srff-i-rvs-model/backend/internal/models"
 )
 
-// RVSEngineImpl is a stub engine that derives simple ratio proxies from the
-// RVSv4Input and composes a placeholder viability score. It satisfies the
-// RVSEngine interface declared in assessment_service.go.
-type RVSEngineImpl struct{}
+// RVSEngineImpl satisfies the RVSEngine interface declared in
+// assessment_service.go. It has two modes:
+//
+//  1. Sidecar mode (PYTHON_RVS_URL is set): POST the RVSv4Input to
+//     {PYTHON_RVS_URL}/calculate and decode the response.
+//  2. Stub mode (PYTHON_RVS_URL is unset): derive ratio proxies from the
+//     RVSv4Input and compose a placeholder score. Used until the Python
+//     sidecar around rvs_calculator_enhanced.py is in place.
+type RVSEngineImpl struct {
+	pythonServiceURL string
+	httpClient       *http.Client
+}
 
-func NewRVSEngine() *RVSEngineImpl { return &RVSEngineImpl{} }
+func NewRVSEngine() *RVSEngineImpl {
+	return &RVSEngineImpl{
+		pythonServiceURL: os.Getenv("PYTHON_RVS_URL"),
+		httpClient:       &http.Client{Timeout: 10 * time.Second},
+	}
+}
 
-// Calculate computes a placeholder score and fills in survival curve, stress
-// tests, and a recommendation. The arithmetic is intentionally simple and
-// must be replaced by the real SRFF-I RVS algorithm before go-live.
+// Calculate dispatches to the Python sidecar when configured; otherwise runs
+// the local stub.
 func (e *RVSEngineImpl) Calculate(input models.RVSv4Input) (models.RVSv4Output, error) {
-	// Derive ratio proxies from the richer RVSv4Input shape.
+	if e.pythonServiceURL != "" {
+		return e.calculateViaPython(input)
+	}
+	return e.calculateStub(input), nil
+}
+
+// calculateViaPython shells out to the FastAPI sidecar. The sidecar is
+// expected to wrap calculate_enhanced_rvs() from rvs_calculator_enhanced.py
+// and return the canonical RVSv4Output JSON shape.
+func (e *RVSEngineImpl) calculateViaPython(input models.RVSv4Input) (models.RVSv4Output, error) {
+	payload, err := json.Marshal(input)
+	if err != nil {
+		return models.RVSv4Output{}, fmt.Errorf("marshal input: %w", err)
+	}
+
+	resp, err := e.httpClient.Post(
+		e.pythonServiceURL+"/calculate",
+		"application/json",
+		bytes.NewReader(payload),
+	)
+	if err != nil {
+		return models.RVSv4Output{}, fmt.Errorf("python service unreachable: %w", err)
+	}
+	defer resp.Body.Close()
+
+	if resp.StatusCode != http.StatusOK {
+		body, _ := io.ReadAll(resp.Body)
+		return models.RVSv4Output{}, fmt.Errorf("python service error %d: %s", resp.StatusCode, string(body))
+	}
+
+	var out models.RVSv4Output
+	if err := json.NewDecoder(resp.Body).Decode(&out); err != nil {
+		return models.RVSv4Output{}, fmt.Errorf("decode response: %w", err)
+	}
+	if out.CalculatedAt.IsZero() {
+		out.CalculatedAt = time.Now()
+	}
+	return out, nil
+}
+
+// calculateStub composes a placeholder score from the richer RVSv4Input.
+// Replace with the real algorithm (or point PYTHON_RVS_URL at the sidecar)
+// before any production use.
+func (e *RVSEngineImpl) calculateStub(input models.RVSv4Input) models.RVSv4Output {
 	equity := input.TotalAssets - input.TotalLiabilities
 
 	var currentRatio, debtEquity, roa, interestCoverage float64
@@ -56,7 +117,7 @@ func (e *RVSEngineImpl) Calculate(input models.RVSv4Input) (models.RVSv4Output, 
 			"roa":              roa,
 			"interestCoverage": interestCoverage,
 		},
-	}, nil
+	}
 }
 
 func calculateRating(score float64) string {

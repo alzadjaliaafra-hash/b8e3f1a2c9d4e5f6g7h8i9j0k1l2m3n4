@@ -6,6 +6,7 @@ import (
 	"github.com/go-chi/chi/v5"
 
 	"github.com/alzadjaliaafra-hash/srff-i-rvs-model/backend/internal/api/handlers"
+	"github.com/alzadjaliaafra-hash/srff-i-rvs-model/backend/internal/middleware"
 )
 
 // Handlers bundles every HTTP handler set wired by the router.
@@ -15,26 +16,10 @@ type Handlers struct {
 	// Auth, User, Analytics, Health handlers would live here once implemented.
 }
 
-// AuthMiddleware is a placeholder for JWT / API-key middleware. Real
-// implementations should attach user context via context.WithValue.
-type AuthMiddleware struct{}
-
-func (a *AuthMiddleware) Authenticate(next http.Handler) http.Handler {
-	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		next.ServeHTTP(w, r)
-	})
-}
-
-func (a *AuthMiddleware) AuthenticateAPIKey(next http.Handler) http.Handler {
-	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		next.ServeHTTP(w, r)
-	})
-}
-
 // SetupRoutes wires every endpoint under /api/v1.
-func SetupRoutes(r chi.Router, h *Handlers, auth *AuthMiddleware) {
+func SetupRoutes(r chi.Router, h *Handlers, auth *middleware.AuthMiddleware) {
 	if auth == nil {
-		auth = &AuthMiddleware{}
+		auth = middleware.NewAuthMiddleware()
 	}
 
 	// Public (no auth).

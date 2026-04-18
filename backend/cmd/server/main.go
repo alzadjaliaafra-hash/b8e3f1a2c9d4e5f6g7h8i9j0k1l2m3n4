@@ -8,12 +8,13 @@ import (
 	"time"
 
 	"github.com/go-chi/chi/v5"
-	"github.com/go-chi/chi/v5/middleware"
+	chimw "github.com/go-chi/chi/v5/middleware"
 	"github.com/go-chi/cors"
 	"github.com/jackc/pgx/v5/pgxpool"
 
 	"github.com/alzadjaliaafra-hash/srff-i-rvs-model/backend/internal/api/handlers"
 	"github.com/alzadjaliaafra-hash/srff-i-rvs-model/backend/internal/api/routes"
+	"github.com/alzadjaliaafra-hash/srff-i-rvs-model/backend/internal/middleware"
 	"github.com/alzadjaliaafra-hash/srff-i-rvs-model/backend/internal/repositories"
 	"github.com/alzadjaliaafra-hash/srff-i-rvs-model/backend/internal/services"
 	"github.com/alzadjaliaafra-hash/srff-i-rvs-model/backend/internal/validators"
@@ -67,11 +68,11 @@ func main() {
 	}
 
 	r := chi.NewRouter()
-	r.Use(middleware.RequestID)
-	r.Use(middleware.RealIP)
-	r.Use(middleware.Logger)
-	r.Use(middleware.Recoverer)
-	r.Use(middleware.Timeout(60 * time.Second))
+	r.Use(chimw.RequestID)
+	r.Use(chimw.RealIP)
+	r.Use(chimw.Logger)
+	r.Use(chimw.Recoverer)
+	r.Use(chimw.Timeout(60 * time.Second))
 	r.Use(cors.Handler(cors.Options{
 		AllowedOrigins:   []string{"http://localhost:4200"},
 		AllowedMethods:   []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"},
@@ -81,7 +82,8 @@ func main() {
 		MaxAge:           300,
 	}))
 
-	routes.SetupRoutes(r, handlerSet, nil)
+	authMw := middleware.NewAuthMiddleware()
+	routes.SetupRoutes(r, handlerSet, authMw)
 
 	port := os.Getenv("PORT")
 	if port == "" {
