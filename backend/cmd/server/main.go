@@ -41,7 +41,20 @@ func main() {
 	transformer := services.NewDataTransformer(logger)
 
 	rvsEngine := services.NewRVSEngine()
-	murshidiClient := services.NewNoopMurshidiClient()
+
+	var murshidiClient services.MurshidiClient
+	if os.Getenv("ANTHROPIC_API_KEY") != "" {
+		claudeClient, err := services.NewClaudeMurshidiClient()
+		if err != nil {
+			logger.Printf("claude murshidi client disabled, using noop fallback: %v", err)
+			murshidiClient = services.NewNoopMurshidiClient()
+		} else {
+			logger.Printf("claude murshidi client enabled (model=%s)", claudeClient.Model())
+			murshidiClient = claudeClient
+		}
+	} else {
+		murshidiClient = services.NewNoopMurshidiClient()
+	}
 
 	assessmentService := services.NewAssessmentService(
 		assessmentRepo,
