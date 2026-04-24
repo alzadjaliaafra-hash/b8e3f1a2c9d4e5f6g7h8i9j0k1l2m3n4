@@ -140,3 +140,14 @@ Thumbs.db
 *.csv
 output/
 results/
+
+# Demo and generated output files
+demo_*.json
+demo_*.xlsx
+mock_*.json
+mock_*.xlsx
+*_monitoring_history.json
+*_monitoring_report.json
+*_distressed_pipeline.xlsx
+*_pipeline_report.json
+SRFF_I_IC_Dashboard.xlsx
