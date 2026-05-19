@@ -1,29 +1,42 @@
-# SRFF-I RVS Model
+# SRFF-I RVS Model (ALiF Platform)
 
-## Latest Version: RVS 3.4 (May 2026)
+## Overview
+This repository serves as the single source of truth for the **SRFF-I (Rescue Valuation Score) Model**, a core component of the ALiF Private Equity Platform developed by Afra Al Zadjali. 
 
-**RVS 3.4 Technical Note** (Upgraded Short-Term Prediction & Rescue Financing Framework)
+The SRFF-I model is designed to evaluate GCC bank acquisitions, structure Islamic finance transactions, and provide robust valuation frameworks for special situations and rescue financing.
 
-This repository now includes the full RVS 3.4 upgrade, which extends the official RVS 3.3 Methodology with:
+## Repository Structure
 
-- Short-Term Price Prediction Layer (99.2% live accuracy on May 4, 2026)
-- Strict Complete-Data Backtesting (10-year + 30-day)
-- Live Excel implementation with formulas
+```text
+SRFF-I-RVS-Model/
+├── backend/            # Go backend for the RVS web application
+├── frontend/           # Angular frontend for the RVS web application
+├── models/             # Core quantitative models
+│   ├── rvs/            # Main Rescue Valuation Score models (Excel & Python)
+│   ├── screening/      # Forward screening algorithms
+│   └── monitoring/     # IC dashboard and monthly monitoring tools
+├── case-studies/       # Applied models on real-world scenarios (e.g., PharmaCo X)
+├── docs/               # Technical notes, methodology, and validation reports
+├── scripts/            # Automation, backtesting, and validation scripts
+└── templates/          # ALiF/Murshidi AI branded templates
+    ├── branded/        # Slide decks and pitchbooks
+    ├── emails/         # Institutional outreach formats
+    └── reports/        # IC memos and research dispatches
+```
+
+## Latest Version: RVS 3.7 (May 2026)
+The repository currently implements the RVS 3.7 methodology, which includes:
+- Short-Term Price Prediction Layer
+- Strict Complete-Data Backtesting
 - 3 Top Buy / 3 Top Sell / 3 Rescue Financing recommendations
 - Full coefficient sensitivity analysis
-- Murshidi AI interpretation prompt
+- Murshidi AI interpretation integration
 
-**Key Files:**
-- `RVS_3.4_Technical_Note_Upgraded_May2026.docx` → Full technical document (20+ pages)
-- `RVS_3.3_Full_Test_Workbook_with_Formulas.xlsx` → Live Excel model
-
-**Main Recommendations (May 5, 2026):**
-- **Buy**: BATP (35–40%), SUWP (25–30%), RCCI (15–20%)
-- **Sell**: NAPI, AFAI, AMCI
-- **Rescue Financing Core**: BATP, SUWP, RCCI
-
-For the complete 24-page RVS 3.3 Methodology + RVS 3.4 upgrade, see the attached Word document.
+## How to Use This Repository (Cost Optimization)
+This repository is structured to minimize AI agent credit consumption by storing reusable assets:
+1. **Templates**: Always pull from `templates/` before generating new emails or reports.
+2. **Models**: Use `models/` for baseline calculations rather than recreating formulas.
+3. **Automation**: Use GitHub Actions (in `.github/workflows/`) for recurring data tasks.
 
 ---
-
-*Repository maintained by SRFF-I Special Situations Desk*
+*Maintained by Afra Al Zadjali | ALiF Special Situations Desk | Powered by Murshidi AI*
